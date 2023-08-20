@@ -9,7 +9,7 @@
 
 ## Apresentação
 
-Desenvolvedor Front-End especializado em UX/UI, dedicado a criar experiências digitais de alta qualidade. Ao longo da minha trajetória profissional, desenvolvi proficiência em todas as fases do ciclo de projetos web dinâmicos. Minhas habilidades abrangem um amplo espectro de linguagens de programação, incluindo HTML5, CSS3, TypeScript e JavaScript, bem como o uso avançado de frameworks como Bootstrap e Material.
+Desenvolvedor Front-End especializado em UX/UI, dedicado a criar experiências digitais de alta qualidade. Ao longo da minha trajetória profissional, desenvolvi proficiência em todas as fases do ciclo de projetos web dinâmicos. Minhas habilidades abrangem um amplo espectro de linguagens de programação, incluindo HTML, CSS, TypeScript e JavaScript, bem como o uso avançado de frameworks como Bootstrap e Material.
 
 Com uma abordagem orientada a resultados e foco na excelência técnica, minha jornada inclui contribuições significativas em projetos desafiadores. Desde a manutenção de websites até o desenvolvimento de intranets abrangentes para instituições de destaque, aplico minha expertise para criar soluções que unem estética, funcionalidade e eficiência.
 
@@ -57,7 +57,7 @@ Graduação Modular: Criação e Desenvolvimento de Websites
 
 Habilidades Técnicas:
 
-Desenvolvimento Front-End: Domínio completo das linguagens HTML5, CSS3 e JavaScript, com foco em criar interfaces atraentes e responsivas. Proficiência em TypeScript para desenvolvimento robusto e orientado a tipos.
+Desenvolvimento Front-End: Domínio completo das linguagens HTML, CSS e JavaScript, com foco em criar interfaces atraentes e responsivas. Proficiência em TypeScript para desenvolvimento robusto e orientado a tipos.
 Frameworks: Experiência sólida em trabalhar com frameworks modernos como Bootstrap e Material, otimizando a usabilidade e consistência visual.
 Controle de Versão: Utilização avançada do Git para rastreamento de alterações, colaboração e versionamento eficiente de projetos.
 Ferramentas de Design Gráfico: Ampla competência em ferramentas de Design Gráfico, incluindo Photoshop, Illustrator, Figma e Adobe XD, para criar interfaces visualmente atraentes e funcionais.
