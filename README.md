@@ -23,23 +23,69 @@ Estou ansioso para contribuir em ambientes desafiadores e colaborativos, onde po
 
 ## Experiência
 
-Magna Sistemas - 2015 a 2021 (Atual)
-Desenvolvedor Front-End e Designer UX para a Coordenadoria de Defesa Agropecuária do Estado de São Paulo, especializado no desenvolvimento de soluções web inovadoras. Responsável por sistemas de intranet, portais web e gestão de sistemas existentes. Focado em aprimorar a experiência do usuário, performance e qualidade. Trabalho com tecnologias como servidores Linux, Eclipse, Git, HTML, CSS, JavaScript, TypeScript, XML, JSON, PHP, Node.JS.
+Magna Sistemas
+Prodesp, São Paulo - SP
+Desenvolvedor Front-End e Designer UX
+2015 - Presente
 
-BANCO DO BRASIL E MAPFRE (GRUPO SEGURADOR) - 2010 a 2015
-Manutenção e suporte da intranet do Grupo, envolvendo desenvolvimento de tecnologias avançadas e implementações. Contribuições para campanhas internas de marketing.
+Desenvolvimento de soluções web inovadoras, com foco na otimização da experiência do usuário.
+Especialização no design e aprimoramento de sistemas de intranet, portais web e funcionalidades existentes.
+Utilização da metodologia Scrum para gerenciar projetos de forma eficiente e colaborativa.
+Proficiência em HTML, CSS, TypeScript e JavaScript para criar interfaces modernas e funcionais.
+Implementação de melhorias de usabilidade e performance para garantir a qualidade das soluções.
 
-FIPECAFI - 2007
-Criação de materiais publicitários, banners para hotsites, manutenção/desenvolvimento de websites incluindo ferramentas administrativas e atualizações.
+BANCO DO BRASIL E MAPFRE (GRUPO SEGURADOR)
+São Paulo - SP
+Desenvolvedor Front-End
+2010 - 2015
 
-KYU - 2005 a 2007
-Manutenção de websites e desenvolvimento de banners.
+Desenvolvimento proativo de soluções web inovadoras, com foco na otimização de intranets e portais web.
+Especialização em design de sistemas e aprimoramento da experiência do usuário, aplicando habilidades em HTML, CSS e JavaScript.
+Aplicação de tecnologias avançadas para elevar a eficácia dos sistemas e melhorar a comunicação interna.
+Contribuição decisiva para campanhas internas de marketing, alavancando conhecimentos em desenvolvimento Front-End para aprimorar a comunicação visual.
 
-HIS Internet Solutions - 2002 a 2005
-Criação de layouts e programação de websites.
+FIPECAFI
+São Paulo - SP
+Desenvolvedor Front-End e Design de Interfaces
+2007
 
-Mercado Livre.com - 2000 a 2001
-Manutenção de website e desenvolvimento de banners.
+Criação proativa de materiais publicitários e banners para hotsites, visando uma comunicação eficaz e atrativa.
+Manutenção e desenvolvimento de websites, incluindo a implementação de ferramentas administrativas e atualizações.
+Desenvolvimento de interfaces utilizando tecnologias HTML e CSS, focando em proporcionar experiências visuais e interativas excepcionais.
+Proficiente na plataforma Microsoft ASPX, incorporando recursos avançados para criar interfaces interativas e funcionais.
+Implementação e gerenciamento de campanhas de anúncios no Google para otimizar a visibilidade online e promover o alcance.
+Práticas avançadas de otimização de busca orgânica (SEO) aplicadas para melhorar a visibilidade dos sites nos mecanismos de busca.
+
+KYU
+São Paulo - SP
+Desenvolvedor Front-End e Design de Banners
+2005 - 2007
+
+Desenvolvimento e manutenção de websites, com foco na otimização da experiência do usuário e na funcionalidade contínua.
+Criação de banners dinâmicos e atraentes, empregando tecnologias HTML e CSS para garantir uma comunicação visual eficaz.
+Aplicação de práticas de desenvolvimento aprendidas com experiências anteriores para aprimorar a usabilidade e a interatividade.
+Utilização de estratégias de design alinhadas com a identidade da marca para criar banners que refletem a mensagem da empresa.
+
+HIS Internet Solutions
+São Paulo - SP
+Desenvolvedor Front-End e Design de Layouts
+2002 - 2005
+
+Criação de layouts inovadores e programação de websites, direcionados a proporcionar experiências atraentes e funcionais.
+Utilização de tecnologias HTML e CSS para desenvolver interfaces intuitivas e visualmente impactantes.
+Aplicação de conhecimentos em design gráfico, incluindo o uso de ferramentas como Photoshop, para criar elementos visuais coerentes e cativantes.
+Contribuição para aprimorar a usabilidade e a interatividade de sites, alinhando-se com as práticas bem-sucedidas nas experiências anteriores.
+Colaboração com equipes para garantir que os layouts desenvolvidos correspondam à identidade da marca e às necessidades do cliente.
+
+Mercado Livre.com
+São Paulo - SP
+Desenvolvedor Front-End e Estratégias de Marketing
+2000 - 2001
+
+Participação na concepção e desenvolvimento de banners estratégicos como parte de campanhas de marketing digital.
+Colaboração ativa na criação de campanhas que tiveram impacto direto na expansão da presença online da empresa.
+Desenvolvimento de interfaces otimizadas para site, promovendo produtos e serviços de forma eficaz e atraente.
+Aplicação avançada de tecnologias HTML e CSS para garantir uniformidade e engajamento nos banners.
 
 ---
 
