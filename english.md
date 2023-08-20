@@ -26,20 +26,58 @@ I look forward to contributing in challenging and collaborative environments, wh
 Magna Sistemas - 2015 to 2021 (Current)
 Front-End Developer and UX Designer for the São Paulo State Department of Agriculture and Livestock, specializing in innovative web solution development. Responsible for intranet systems, web portals, and management of existing systems. Focused on enhancing user experience, performance, and quality. Proficient in technologies like Linux servers, Eclipse, Git, HTML, CSS, JavaScript, TypeScript, XML, JSON, PHP, Node.JS.
 
-BANCO DO BRASIL AND MAPFRE (INSURANCE GROUP) - 2010 to 2015
-Maintenance and support of the Group's intranet, involving advanced technology development and implementations. Contributions to internal marketing campaigns.
+BANCO DO BRASIL E MAPFRE (GROUP INSURER)
+São Paulo, SP
+Front-End Developer
+2010 - 2015
 
-FIPECAFI - 2007
-Creation of advertising materials, banners for hotsites, maintenance/development of websites including administrative tools and updates.
+Proactive development of innovative web solutions with a focus on optimizing intranets and web portals.
+Specialization in system design and enhancing user experience, applying skills in HTML, CSS, and JavaScript.
+Application of advanced technologies to enhance system effectiveness and improve internal communication.
+Decisive contribution to internal marketing campaigns, leveraging Front-End development knowledge to enhance visual communication.
 
-KYU - 2005 to 2007
-Website maintenance and banner development.
+FIPECAFI
+São Paulo, SP
+Front-End Developer and Interface Design
+2007 - 2009
 
-HIS Internet Solutions - 2002 to 2005
-Layout creation and website programming.
+Proactive creation of advertising materials and banners for hotsites, aiming for effective and attractive communication.
+Maintenance and development of websites, including the implementation of administrative tools and updates.
+Development of interfaces using HTML and CSS technologies, focusing on delivering exceptional visual and interactive experiences.
+Proficiency in the Microsoft ASPX platform, incorporating advanced features to create interactive and functional interfaces.
+Implementation and management of Google ad campaigns to optimize online visibility and expand reach.
+Advanced search engine optimization (SEO) practices applied to enhance site visibility on search engines.
 
-Mercado Livre.com - 2000 to 2001
-Website maintenance and banner development.
+KYU
+São Paulo, SP
+Front-End Developer and Banner Design
+2005 - 2007
+
+Development and maintenance of websites, with a focus on optimizing user experience and continuous functionality.
+Creation of dynamic and attractive banners, employing HTML and CSS technologies for effective visual communication.
+Application of development practices from previous experiences to enhance usability and interactivity.
+Utilization of design strategies aligned with the brand identity to create banners that reflect the company's message.
+
+HIS Internet Solutions
+São Paulo, SP
+Front-End Developer and Layout Design
+2002 - 2005
+
+Creation of innovative layouts and programming of websites, aimed at providing appealing and functional experiences.
+Utilization of HTML and CSS technologies to develop intuitive and visually impactful interfaces.
+Application of graphic design knowledge, including the use of tools like Photoshop, to create coherent and captivating visual elements.
+Contribution to enhancing website usability and interactivity, aligning with successful practices from previous experiences.
+Collaboration with teams to ensure developed layouts correspond to brand identity and client needs.
+
+Mercado Livre.com
+São Paulo, SP
+Front-End Developer and Marketing Strategies
+2000 - 2001
+
+Participation in the design and development of strategic banners as part of digital marketing campaigns.
+Active collaboration in campaigns that directly impacted the company's online presence expansion.
+Development of optimized website interfaces to effectively promote products and services.
+Advanced application of HTML and CSS technologies to ensure consistency and engagement in banners.
 
 ---
 
