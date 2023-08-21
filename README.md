@@ -1,7 +1,6 @@
 # DANIEL ANGELONE
 
 🏠 Av. João Paffaro, 1378 – Vinhedo - SP  
-📞 +55 19 99656-6343  
 📧 daniel.angelone@gmail.com  
 💼 [LinkedIn](https://www.linkedin.com/in/danielangelone/)
 
