@@ -107,4 +107,3 @@ Frameworks: Experiência sólida em trabalhar com frameworks modernos como Boots
 Controle de Versão: Utilização avançada do Git para rastreamento de alterações, colaboração e versionamento eficiente de projetos.
 Ferramentas de Design Gráfico: Ampla competência em ferramentas de Design Gráfico, incluindo Photoshop, Illustrator, Figma e Adobe XD, para criar interfaces visualmente atraentes e funcionais.
 Metodologias Ágeis: Experiência prática com metodologias ágeis, garantindo entregas pontuais e colaborativas em equipe.
-
