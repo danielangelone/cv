@@ -8,15 +8,13 @@
 
 ## Apresentação
 
-Desenvolvedor Front-End especializado em UX/UI, dedicado a criar experiências digitais de alta qualidade. Ao longo da minha trajetória profissional, desenvolvi proficiência em todas as fases do ciclo de projetos web dinâmicos. Minhas habilidades abrangem um amplo espectro de linguagens de programação, incluindo HTML, CSS, TypeScript e JavaScript, bem como o uso avançado de frameworks como Bootstrap e Material.
+Desenvolvedor Front-End especializado em transformar conceitos em código eficiente. Tenho expertise em HTML5, CSS3, JavaScript, React e Vue.js, construindo interfaces intuitivas e responsivas. Comprometido com as melhores práticas de desenvolvimento web, busco constantemente aprimoramento para impulsionar a inovação.
 
-Com uma abordagem orientada a resultados e foco na excelência técnica, minha jornada inclui contribuições significativas em projetos desafiadores. Desde a manutenção de websites até o desenvolvimento de intranets abrangentes para instituições de destaque, aplico minha expertise para criar soluções que unem estética, funcionalidade e eficiência.
+Minha jornada inclui contribuições significativas em projetos desafiadores, desde a manutenção de websites até o desenvolvimento de portais para instituições de destaque. Minha abordagem orientada a resultados e excelência técnica reflete-se na criação de soluções que unem estética, funcionalidade e eficiência.
 
-Minha familiaridade com ferramentas essenciais de Design Gráfico, como Photoshop, Illustrator, Figma e Sketch, permite-me transformar conceitos em interfaces tangíveis e visualmente atraentes. Além disso, minha experiência com sistemas de versionamento, como Git, assegura a colaboração eficaz e o rastreamento preciso de alterações.
+Além de minha experiência com sistemas de versionamento, como Git, destaco minha familiaridade com tecnologias bancárias, PHP e ferramentas como Figma. Mantenho um compromisso constante com a aprendizagem e o aprimoramento, buscando inovação, usabilidade e qualidade em cada projeto.
 
-Mantenho um compromisso constante com a aprendizagem e o aprimoramento. Acredito que o sucesso na tecnologia exige uma busca incansável por inovação, juntamente com uma abordagem analítica e baseada em dados. Minha dedicação à usabilidade, desempenho e qualidade reflete-se em cada projeto que empreendo.
-
-Estou ansioso para contribuir em ambientes desafiadores e colaborativos, onde posso aplicar minhas habilidades para impulsionar a excelência na experiência do usuário e no desenvolvimento Front-End.
+Estou entusiasmado para contribuir em ambientes desafiadores e colaborativos, aplicando minhas habilidades para impulsionar a excelência na experiência do usuário e no desenvolvimento Front-End
 
 ---
 
@@ -24,8 +22,8 @@ Estou ansioso para contribuir em ambientes desafiadores e colaborativos, onde po
 
 Magna Sistemas
 Prodesp, São Paulo - SP
-Desenvolvedor Front-End e Designer UX
-2015 - Presente
+Desenvolvedor Front-End
+2023
 
 Desenvolvimento de soluções web inovadoras, com foco na otimização da experiência do usuário.
 Especialização no design e aprimoramento de sistemas de intranet, portais web e funcionalidades existentes.
