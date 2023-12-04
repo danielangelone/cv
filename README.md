@@ -12,7 +12,7 @@ Desenvolvedor Front-End especializado em transformar conceitos em código eficie
 
 Minha jornada inclui contribuições significativas em projetos desafiadores, desde a manutenção de websites até o desenvolvimento de portais para instituições de destaque. Minha abordagem orientada a resultados e excelência técnica reflete-se na criação de soluções que unem estética, funcionalidade e eficiência.
 
-Além de minha experiência com sistemas de versionamento, como Git, destaco minha familiaridade com tecnologias bancárias, PHP e ferramentas como Figma. Mantenho um compromisso constante com a aprendizagem e o aprimoramento, buscando inovação, usabilidade e qualidade em cada projeto.
+Além de minha experiência com sistemas de versionamento, como Git. Mantenho um compromisso constante com a aprendizagem e o aprimoramento, buscando inovação, usabilidade e qualidade em cada projeto.
 
 Estou entusiasmado para contribuir em ambientes desafiadores e colaborativos, aplicando minhas habilidades para impulsionar a excelência na experiência do usuário e no desenvolvimento Front-End
 
@@ -20,8 +20,7 @@ Estou entusiasmado para contribuir em ambientes desafiadores e colaborativos, ap
 
 ## Experiência
 
-Magna Sistemas
-Prodesp, São Paulo - SP
+PRODESP, São Paulo - SP
 Desenvolvedor Front-End
 2023
 
@@ -46,10 +45,9 @@ São Paulo - SP
 Desenvolvedor Front-End e Design de Interfaces
 2007
 
-Criação proativa de materiais publicitários e banners para hotsites, visando uma comunicação eficaz e atrativa.
-Manutenção e desenvolvimento de websites, incluindo a implementação de ferramentas administrativas e atualizações.
-Desenvolvimento de interfaces utilizando tecnologias HTML e CSS, focando em proporcionar experiências visuais e interativas excepcionais.
-Proficiente na plataforma Microsoft ASPX, incorporando recursos avançados para criar interfaces interativas e funcionais.
+Manutenção e desenvolvimento ágil de websites, incluindo a implementação de ferramentas administrativas e atualizações. Especialização em tecnologias como React, HTML, CSS3, e PHP para garantir interfaces modernas e funcionais.
+Desenvolvimento de interfaces responsivas, utilizando tecnologias como HTML, CSS3 e React, com foco em proporcionar experiências visuais e interativas excepcionais.
+Experiência sólida em metodologias ágeis para um desenvolvimento eficiente e flexível.
 Implementação e gerenciamento de campanhas de anúncios no Google para otimizar a visibilidade online e promover o alcance.
 Práticas avançadas de otimização de busca orgânica (SEO) aplicadas para melhorar a visibilidade dos sites nos mecanismos de busca.
 
@@ -59,7 +57,7 @@ Desenvolvedor Front-End e Design de Banners
 2005 - 2007
 
 Desenvolvimento e manutenção de websites, com foco na otimização da experiência do usuário e na funcionalidade contínua.
-Criação de banners dinâmicos e atraentes, empregando tecnologias HTML e CSS para garantir uma comunicação visual eficaz.
+Criação de banners dinâmicos e atraentes, empregando tecnologias HTML e CSS e PHP para garantir uma comunicação visual eficaz.
 Aplicação de práticas de desenvolvimento aprendidas com experiências anteriores para aprimorar a usabilidade e a interatividade.
 Utilização de estratégias de design alinhadas com a identidade da marca para criar banners que refletem a mensagem da empresa.
 
@@ -69,7 +67,7 @@ Desenvolvedor Front-End e Design de Layouts
 2002 - 2005
 
 Criação de layouts inovadores e programação de websites, direcionados a proporcionar experiências atraentes e funcionais.
-Utilização de tecnologias HTML e CSS para desenvolver interfaces intuitivas e visualmente impactantes.
+Utilização de tecnologias PHP, HTML e CSS para desenvolver interfaces intuitivas e visualmente impactantes.
 Aplicação de conhecimentos em design gráfico, incluindo o uso de ferramentas como Photoshop, para criar elementos visuais coerentes e cativantes.
 Contribuição para aprimorar a usabilidade e a interatividade de sites, alinhando-se com as práticas bem-sucedidas nas experiências anteriores.
 Colaboração com equipes para garantir que os layouts desenvolvidos correspondam à identidade da marca e às necessidades do cliente.
