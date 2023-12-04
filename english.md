@@ -6,95 +6,60 @@
 
 ---
 
-## Introduction
+Introduction
+Front-End Developer specialized in translating concepts into efficient code. Proficient in HTML5, CSS3, JavaScript, React, and Vue.js, I build intuitive and responsive interfaces. Committed to best practices in web development, I continually seek improvement to drive innovation.
 
-Front-End Developer specialized in UX/UI, dedicated to creating high-quality digital experiences. Throughout my professional journey, I have developed proficiency in all phases of dynamic web project cycles. My skills encompass a wide range of programming languages, including HTML, CSS, TypeScript, and JavaScript, as well as advanced usage of frameworks like Bootstrap and Material.
+My journey includes significant contributions to challenging projects, ranging from website maintenance to the development of portals for prominent institutions. My results-oriented approach and technical excellence are reflected in solutions that seamlessly blend aesthetics, functionality, and efficiency.
 
-With a results-oriented approach and a focus on technical excellence, my journey includes significant contributions to challenging projects. From website maintenance to the development of comprehensive intranets for prominent institutions, I apply my expertise to create solutions that combine aesthetics, functionality, and efficiency.
+In addition to my experience with version control systems like Git, I maintain a constant commitment to learning and improvement, seeking innovation, usability, and quality in every project.
 
-My familiarity with essential Graphic Design tools, such as Photoshop, Illustrator, Figma, and Adobe XD, enables me to transform concepts into tangible and visually appealing interfaces. Additionally, my experience with version control systems like Git ensures effective collaboration and precise change tracking.
+I am excited to contribute in challenging and collaborative environments, applying my skills to enhance user experience and Front-End development excellence.
 
-I maintain a continuous commitment to learning and improvement. I believe that success in technology demands tireless innovation alongside an analytical, data-driven approach. My dedication to usability, performance, and quality is evident in every project I undertake.
+Experience
+PRODESP, São Paulo - SP
+Front-End Developer
+2023
 
-I look forward to contributing in challenging and collaborative environments, where I can apply my skills to drive excellence in user experience and Front-End development.
+Developed innovative web solutions with a focus on optimizing the user experience. Specialized in designing and enhancing intranet systems, web portals, and existing functionalities. Utilized Scrum methodology for efficient and collaborative project management. Proficient in HTML, CSS, TypeScript, and JavaScript to create modern and functional interfaces. Implemented usability and performance improvements to ensure solution quality.
 
----
-
-## Experience
-
-Magna Sistemas - 2015 to 2021 (Current)
-Front-End Developer and UX Designer for the São Paulo State Department of Agriculture and Livestock, specializing in innovative web solution development. Responsible for intranet systems, web portals, and management of existing systems. Focused on enhancing user experience, performance, and quality. Proficient in technologies like Linux servers, Eclipse, Git, HTML, CSS, JavaScript, TypeScript, XML, JSON, PHP, Node.JS.
-
-BANCO DO BRASIL E MAPFRE (GROUP INSURER)
-São Paulo, SP
+BANCO DO BRASIL E MAPFRE (INSURANCE GROUP), São Paulo - SP
 Front-End Developer
 2010 - 2015
 
-Proactive development of innovative web solutions with a focus on optimizing intranets and web portals.
-Specialization in system design and enhancing user experience, applying skills in HTML, CSS, and JavaScript.
-Application of advanced technologies to enhance system effectiveness and improve internal communication.
-Decisive contribution to internal marketing campaigns, leveraging Front-End development knowledge to enhance visual communication.
+Proactively developed innovative web solutions, with a focus on optimizing intranets and web portals. Specialized in system design and user experience enhancement, applying skills in HTML, CSS, and JavaScript. Applied advanced technologies to elevate system effectiveness and improve internal communication. Made decisive contributions to internal marketing campaigns, leveraging Front-End development knowledge to enhance visual communication.
 
-FIPECAFI
-São Paulo, SP
+FIPECAFI, São Paulo - SP
 Front-End Developer and Interface Design
-2007 - 2009
+2007
 
-Proactive creation of advertising materials and banners for hotsites, aiming for effective and attractive communication.
-Maintenance and development of websites, including the implementation of administrative tools and updates.
-Development of interfaces using HTML and CSS technologies, focusing on delivering exceptional visual and interactive experiences.
-Proficiency in the Microsoft ASPX platform, incorporating advanced features to create interactive and functional interfaces.
-Implementation and management of Google ad campaigns to optimize online visibility and expand reach.
-Advanced search engine optimization (SEO) practices applied to enhance site visibility on search engines.
+Maintained and agilely developed websites, including the implementation of administrative tools and updates. Specialized in technologies such as React, HTML, CSS3, and PHP to ensure modern and functional interfaces. Developed responsive interfaces using HTML, CSS3, and React, focusing on providing exceptional visual and interactive experiences. Solid experience in agile methodologies for efficient and flexible development. Implemented and managed Google ad campaigns to optimize online visibility and reach. Applied advanced SEO practices to improve site visibility on search engines.
 
-KYU
-São Paulo, SP
+KYU, São Paulo - SP
 Front-End Developer and Banner Design
 2005 - 2007
 
-Development and maintenance of websites, with a focus on optimizing user experience and continuous functionality.
-Creation of dynamic and attractive banners, employing HTML and CSS technologies for effective visual communication.
-Application of development practices from previous experiences to enhance usability and interactivity.
-Utilization of design strategies aligned with the brand identity to create banners that reflect the company's message.
+Developed and maintained websites with a focus on optimizing the user experience and continuous functionality. Created dynamic and engaging banners using HTML, CSS, and PHP to ensure effective visual communication. Applied development practices learned from previous experiences to enhance usability and interactivity. Used design strategies aligned with the brand identity to create banners that reflect the company's message.
 
-HIS Internet Solutions
-São Paulo, SP
+HIS Internet Solutions, São Paulo - SP
 Front-End Developer and Layout Design
 2002 - 2005
 
-Creation of innovative layouts and programming of websites, aimed at providing appealing and functional experiences.
-Utilization of HTML and CSS technologies to develop intuitive and visually impactful interfaces.
-Application of graphic design knowledge, including the use of tools like Photoshop, to create coherent and captivating visual elements.
-Contribution to enhancing website usability and interactivity, aligning with successful practices from previous experiences.
-Collaboration with teams to ensure developed layouts correspond to brand identity and client needs.
+Created innovative layouts and programmed websites aimed at providing attractive and functional experiences. Used PHP, HTML, and CSS technologies to develop intuitive and visually striking interfaces. Applied knowledge in graphic design, including the use of tools like Photoshop, to create coherent and captivating visual elements. Contributed to enhancing the usability and interactivity of sites, aligning with successful practices from previous experiences. Collaborated with teams to ensure that the developed layouts corresponded to the brand identity and customer needs.
 
-Mercado Livre.com
-São Paulo, SP
+Mercado Livre.com, São Paulo - SP
 Front-End Developer and Marketing Strategies
 2000 - 2001
 
-Participation in the design and development of strategic banners as part of digital marketing campaigns.
-Active collaboration in campaigns that directly impacted the company's online presence expansion.
-Development of optimized website interfaces to effectively promote products and services.
-Advanced application of HTML and CSS technologies to ensure consistency and engagement in banners.
+Participated in the conception and development of strategic banners as part of digital marketing campaigns. Actively collaborated in creating campaigns that directly impacted the company's online presence expansion. Developed optimized interfaces for the website, effectively promoting products and services. Applied advanced HTML and CSS technologies to ensure uniformity and engagement in banners.
 
----
-
-## Education
-
+Education
 Centro Universitario FMU - FIAM-FAAM
 Bachelor's Degree in Information Technology - Information Systems
 
 Universidade Anhembi Morumbi
-Modular Graduation: Web-Site Creation and Development
+Modular Graduation: Creation and Development of Websites
 
 ---
 
-## Technical Skills
 
-**Technical Skills:**
-- **Front-End Development:** Full mastery of HTML, CSS, and JavaScript, with a focus on creating engaging and responsive interfaces. Proficiency in TypeScript for robust and type-safe development.
-- **Frameworks:** Solid experience working with modern frameworks like Bootstrap and Material, optimizing usability and visual consistency.
-- **Version Control:** Advanced usage of Git for change tracking, collaboration, and efficient project versioning.
-- **Graphic Design Tools:** Extensive competence in Graphic Design tools, including Photoshop, Illustrator, Figma, and Adobe XD, to create visually appealing and functional interfaces.
-- **Agile Methodologies:** Practical experience with Agile methodologies, ensuring timely and collaborative deliveries within a team.
+![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) ![PHP](https://img.shields.io/badge/php-%23777BB4.svg?style=for-the-badge&logo=php&logoColor=white) ![PowerShell](https://img.shields.io/badge/PowerShell-%235391FE.svg?style=for-the-badge&logo=powershell&logoColor=white) ![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white) ![Shell Script](https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white) ![AWS](https://img.shields.io/badge/AWS-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white) ![Azure](https://img.shields.io/badge/azure-%230072C6.svg?style=for-the-badge&logo=microsoftazure&logoColor=white) ![DigitalOcean](https://img.shields.io/badge/DigitalOcean-%230167ff.svg?style=for-the-badge&logo=digitalOcean&logoColor=white) ![GithubPages](https://img.shields.io/badge/github%20pages-121013?style=for-the-badge&logo=github&logoColor=white) ![Google Cloud](https://img.shields.io/badge/GoogleCloud-%234285F4.svg?style=for-the-badge&logo=google-cloud&logoColor=white) ![Angular](https://img.shields.io/badge/angular-%23DD0031.svg?style=for-the-badge&logo=angular&logoColor=white) ![Bootstrap](https://img.shields.io/badge/bootstrap-%238511FA.svg?style=for-the-badge&logo=bootstrap&logoColor=white) ![Less](https://img.shields.io/badge/less-2B4C80?style=for-the-badge&logo=less&logoColor=white) ![NPM](https://img.shields.io/badge/NPM-%23CB3837.svg?style=for-the-badge&logo=npm&logoColor=white) ![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white) ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB) ![SASS](https://img.shields.io/badge/SASS-hotpink.svg?style=for-the-badge&logo=SASS&logoColor=white) ![Thymeleaf](https://img.shields.io/badge/Thymeleaf-%23005C0F.svg?style=for-the-badge&logo=Thymeleaf&logoColor=white) ![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white) ![Yarn](https://img.shields.io/badge/yarn-%232C8EBB.svg?style=for-the-badge&logo=yarn&logoColor=white) ![Apache](https://img.shields.io/badge/apache-%23D42029.svg?style=for-the-badge&logo=apache&logoColor=white) ![Jenkins](https://img.shields.io/badge/jenkins-%232C5263.svg?style=for-the-badge&logo=jenkins&logoColor=white) ![MySQL](https://img.shields.io/badge/mysql-%2300000f.svg?style=for-the-badge&logo=mysql&logoColor=white) ![MicrosoftSQLServer](https://img.shields.io/badge/Microsoft%20SQL%20Server-CC2927?style=for-the-badge&logo=microsoft%20sql%20server&logoColor=white) ![MariaDB](https://img.shields.io/badge/MariaDB-003545?style=for-the-badge&logo=mariadb&logoColor=white) ![Postgres](https://img.shields.io/badge/postgres-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white) ![SQLite](https://img.shields.io/badge/sqlite-%2307405e.svg?style=for-the-badge&logo=sqlite&logoColor=white) ![Adobe Illustrator](https://img.shields.io/badge/adobe%20illustrator-%23FF9A00.svg?style=for-the-badge&logo=adobe%20illustrator&logoColor=white) ![Adobe Photoshop](https://img.shields.io/badge/adobe%20photoshop-%2331A8FF.svg?style=for-the-badge&logo=adobe%20photoshop&logoColor=white) ![Adobe InDesign](https://img.shields.io/badge/Adobe%20InDesign-49021F?style=for-the-badge&logo=adobeindesign&logoColor=FF3366) ![Sketch](https://img.shields.io/badge/Sketch-FFB387?style=for-the-badge&logo=sketch&logoColor=black) ![Figma](https://img.shields.io/badge/figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white) ![Adobe XD](https://img.shields.io/badge/Adobe%20XD-470137?style=for-the-badge&logo=Adobe%20XD&logoColor=#FF61F6) ![Canva](https://img.shields.io/badge/Canva-%2300C4CC.svg?style=for-the-badge&logo=Canva&logoColor=white) ![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white) ![Pi-Hole](https://img.shields.io/badge/pihole-%2396060C.svg?style=for-the-badge&logo=pi-hole&logoColor=white) ![Trello](https://img.shields.io/badge/Trello-%23026AA7.svg?style=for-the-badge&logo=Trello&logoColor=white)
