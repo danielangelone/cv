@@ -1,4 +1,4 @@
-# DANIEL ANGELONE
+# **[DANIEL ANGELONE]**
 
 🏠 Av. João Paffaro, 1378 – Vinhedo - SP  
 📧 daniel.angelone@gmail.com  
@@ -6,58 +6,84 @@
 
 ---
 
-Introduction
-Front-End Developer specialized in translating concepts into efficient code. Proficient in HTML5, CSS3, JavaScript, React, and Vue.js, I build intuitive and responsive interfaces. Committed to best practices in web development, I continually seek improvement to drive innovation.
+## **Front-End Developer**
 
-My journey includes significant contributions to challenging projects, ranging from website maintenance to the development of portals for prominent institutions. My results-oriented approach and technical excellence are reflected in solutions that seamlessly blend aesthetics, functionality, and efficiency.
+Front-End Developer with experience in creating efficient and user-focused web applications. Proficient in **HTML5**, **CSS3**, **JavaScript**, **React**, **Vue.js**, **PHP**, and **database management**. Skilled at designing intuitive, responsive, and accessible interfaces while adhering to modern development standards.
 
-In addition to my experience with version control systems like Git, I maintain a constant commitment to learning and improvement, seeking innovation, usability, and quality in every project.
+With extensive experience in developing and maintaining web portals, intranets, and marketing campaigns, I deliver solutions that combine aesthetics, performance, and functionality. Constantly pursuing innovation and improvement, I bring a results-driven approach to enhance user experience and optimize project outcomes.
 
-I am excited to contribute in challenging and collaborative environments, applying my skills to enhance user experience and Front-End development excellence.
+---
 
-Experience
-PRODESP, São Paulo - SP
-Front-End Developer
-2023
+## **Professional Experience**
 
-Developed innovative web solutions with a focus on optimizing the user experience. Specialized in designing and enhancing intranet systems, web portals, and existing functionalities. Utilized Scrum methodology for efficient and collaborative project management. Proficient in HTML, CSS, TypeScript, and JavaScript to create modern and functional interfaces. Implemented usability and performance improvements to ensure solution quality.
+### **PRODESP, São Paulo, SP**  
+**Front-End Developer**  
+_2023 – Present_  
+- Designed and enhanced intranet systems, web portals, and existing functionalities with a focus on user-centric solutions.  
+- Utilized **HTML**, **CSS**, **TypeScript**, **JavaScript**, and **WordPress** to create modern and functional interfaces.  
+- Applied **Git** for version control and implemented cloud solutions with **Google Cloud Platform (GCP)**.  
+- Improved usability and performance, ensuring high-quality and efficient solutions.  
+- Worked within Scrum teams to deliver projects collaboratively and on schedule.  
 
-BANCO DO BRASIL E MAPFRE (INSURANCE GROUP), São Paulo - SP
-Front-End Developer
-2010 - 2015
+### **Banco do Brasil e Mapfre (Insurance Group), São Paulo, SP**  
+**Front-End Developer**  
+_2010 – 2015_  
+- Developed innovative intranets and web portals, optimizing user experience and internal communication.  
+- Leveraged expertise in **HTML**, **CSS**, and **JavaScript** to deliver high-quality interfaces.  
+- Contributed to internal marketing campaigns with visually appealing designs and interactive elements.  
 
-Proactively developed innovative web solutions, with a focus on optimizing intranets and web portals. Specialized in system design and user experience enhancement, applying skills in HTML, CSS, and JavaScript. Applied advanced technologies to elevate system effectiveness and improve internal communication. Made decisive contributions to internal marketing campaigns, leveraging Front-End development knowledge to enhance visual communication.
+### **FIPECAFI, São Paulo, SP**  
+**Front-End Developer & Interface Designer**  
+_2007_  
+- Created responsive interfaces using **HTML**, **CSS3**, and **PHP**, enhancing interactivity and user engagement.  
+- Applied advanced **SEO** techniques and managed **Google Ads** campaigns to improve visibility and performance.  
+- Collaborated in agile teams to meet deadlines and deliver optimized solutions.  
 
-FIPECAFI, São Paulo - SP
-Front-End Developer and Interface Design
-2007
+### **KYU, São Paulo, SP**  
+**Front-End Developer & Banner Designer**  
+_2005 – 2007_  
+- Developed and maintained websites and dynamic banners, ensuring alignment with brand identity.  
+- Utilized **HTML**, **CSS**, and **PHP** to enhance functionality and interactivity.  
 
-Maintained and agilely developed websites, including the implementation of administrative tools and updates. Specialized in technologies such as React, HTML, CSS3, and PHP to ensure modern and functional interfaces. Developed responsive interfaces using HTML, CSS3, and React, focusing on providing exceptional visual and interactive experiences. Solid experience in agile methodologies for efficient and flexible development. Implemented and managed Google ad campaigns to optimize online visibility and reach. Applied advanced SEO practices to improve site visibility on search engines.
+### **HIS Internet Solutions, São Paulo, SP**  
+**Front-End Developer & Layout Designer**  
+_2002 – 2005_  
+- Designed and implemented website layouts using **PHP**, **HTML**, and **CSS** to provide seamless user experiences.  
+- Produced visually compelling designs with tools like **Photoshop**, aligning with customer expectations.  
 
-KYU, São Paulo - SP
-Front-End Developer and Banner Design
-2005 - 2007
+### **Mercado Livre.com, São Paulo, SP**  
+**Front-End Developer & Marketing Strategies**  
+_2000 – 2001_  
+- Designed and executed banners for digital marketing campaigns, strengthening the company's online presence.  
+- Optimized website interfaces, promoting product engagement and brand recognition.  
 
-Developed and maintained websites with a focus on optimizing the user experience and continuous functionality. Created dynamic and engaging banners using HTML, CSS, and PHP to ensure effective visual communication. Applied development practices learned from previous experiences to enhance usability and interactivity. Used design strategies aligned with the brand identity to create banners that reflect the company's message.
+---
 
-HIS Internet Solutions, São Paulo - SP
-Front-End Developer and Layout Design
-2002 - 2005
+## **Education**
 
-Created innovative layouts and programmed websites aimed at providing attractive and functional experiences. Used PHP, HTML, and CSS technologies to develop intuitive and visually striking interfaces. Applied knowledge in graphic design, including the use of tools like Photoshop, to create coherent and captivating visual elements. Contributed to enhancing the usability and interactivity of sites, aligning with successful practices from previous experiences. Collaborated with teams to ensure that the developed layouts corresponded to the brand identity and customer needs.
+- **Centro Universitário FMU - FIAM-FAAM**  
+  **Bachelor’s Degree in Information Technology – Information Systems**  
 
-Mercado Livre.com, São Paulo - SP
-Front-End Developer and Marketing Strategies
-2000 - 2001
+- **Universidade Anhembi Morumbi**  
+  **Modular Graduation:** Creation and Development of Websites  
 
-Participated in the conception and development of strategic banners as part of digital marketing campaigns. Actively collaborated in creating campaigns that directly impacted the company's online presence expansion. Developed optimized interfaces for the website, effectively promoting products and services. Applied advanced HTML and CSS technologies to ensure uniformity and engagement in banners.
+---
 
-Education
-Centro Universitario FMU - FIAM-FAAM
-Bachelor's Degree in Information Technology - Information Systems
+## **Skills**
 
-Universidade Anhembi Morumbi
-Modular Graduation: Creation and Development of Websites
+- **Programming & Development:** HTML, CSS, JavaScript, TypeScript, PHP  
+- **Cloud Platforms:** Google Cloud Platform (GCP), AWS  
+- **Tools & Frameworks:** Git, Scrum, Photoshop, SEO, Google Ads  
+- **Database Management:** MySQL, PostgreSQL, MariaDB  
+- **Soft Skills:** Problem-Solving, Team Collaboration, Communication, Adaptability  
+
+---
+
+## **Languages**
+
+- **Portuguese:** Native  
+- **English:** Advanced  
+
 
 ---
 
