@@ -1,4 +1,4 @@
-# **[DANIEL ANGELONE]**
+# **DANIEL ANGELONE**
 
 🏠 Av. João Paffaro, 1378 – Vinhedo - SP  
 📧 daniel.angelone@gmail.com  
