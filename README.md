@@ -1,86 +1,86 @@
 # **DANIEL ANGELONE**  
 **Senior Front-End Developer | Cloud Architect | DevOps Engineer**  
 
-📍 **Vinhedo - SP, Brasil**  
+📍 **Vinhedo - SP, Brazil**  
 📧 [daniel.angelone@gmail.com](mailto:daniel.angelone@gmail.com)  
 💼 [LinkedIn](https://www.linkedin.com/in/danielangelone/)  
 🚀 [GitHub](https://github.com/danielangelone)  
 
 ---
 
-## **💡 Resumo Profissional**  
-Desenvolvedor **Front-End** com **20+ anos de experiência** criando aplicações web **escaláveis**, **seguras** e **performáticas**. Especialista em **arquitetura de software**, **DevOps**, **cloud computing** e **integração de sistemas**.  
+## **💡 Professional Summary**  
+Front-End Developer with **20+ years of experience** building **scalable**, **secure**, and **high-performance** web applications. Specialist in **software architecture**, **DevOps**, **cloud computing**, and **system integration**.  
 
 🔹 **Frontend**: JavaScript (ES6+), TypeScript, React, Vue.js, Angular, SASS, TailwindCSS  
-🔹 **Backend**: PHP, Node.js, Python, APIs RESTful & GraphQL  
+🔹 **Backend**: PHP, Node.js, Python, RESTful APIs & GraphQL  
 🔹 **DevOps & Cloud**: GCP, AWS, Azure, Docker, Kubernetes, CI/CD (Jenkins, GitHub Actions)  
-🔹 **Bancos de Dados**: MySQL, PostgreSQL, MongoDB, Redis  
-🔹 **Metodologias**: Scrum, Kanban, Agile  
+🔹 **Databases**: MySQL, PostgreSQL, MongoDB, Redis  
+🔹 **Methodologies**: Scrum, Kanban, Agile  
 
-Atualmente atuando como **Front-End Developer na Almaviva Solutions**, focado em **arquitetura de aplicações, performance, segurança e automação de infraestrutura**.  
+Currently working as a **Front-End Developer at Almaviva Solutions**, focusing on **application architecture, performance, security, and infrastructure automation**.  
 
 ---
 
-## **💼 Experiência Profissional**  
+## **💼 Professional Experience**  
 
 ### **🚀 Front-End Developer | Almaviva Solutions**  
-📅 **Abr 2024 - Presente**  
-- Desenvolvimento e manutenção de **aplicações web escaláveis** (React, PHP, PostgreSQL).  
-- Arquitetura e gerenciamento de infraestrutura **Google Cloud Platform (GCP)**.  
-- Implementação de **CI/CD** com **GitHub Actions e Docker**.  
-- Otimização de servidores **Apache** e **Nginx**.  
-- Criação e consumo de **APIs RESTful**.  
+📅 **Apr 2024 - Present**  
+- Developing and maintaining **scalable web applications** (React, PHP, PostgreSQL).  
+- Architecting and managing infrastructure in **Google Cloud Platform (GCP)**.  
+- Implementing **CI/CD pipelines** with **GitHub Actions and Docker**.  
+- Optimizing **Apache** and **Nginx** servers.  
+- Creating and consuming **RESTful APIs**.  
 
-### **🖥️ Desenvolvedor Front-End | MagnaSistemas**  
+### **🖥️ Front-End Developer | MagnaSistemas**  
 📅 **2023 - 2024**  
-- Construção de **interfaces responsivas e acessíveis** usando **PHP, PostgreSQL e CSS**.  
-- Integração com **APIs RESTful** e microsserviços.  
-- Deploy e monitoramento em **AWS** e **GCP**.  
-- Otimização de performance para alto tráfego.  
+- Building **responsive and accessible interfaces** using **PHP, PostgreSQL, and CSS**.  
+- Integrating **RESTful APIs** and microservices.  
+- Deploying and monitoring applications on **AWS** and **GCP**.  
+- Optimizing performance for high-traffic applications.  
 
-### **🏦 Desenvolvedor Front-End | Banco do Brasil & Mapfre (Grupo de Seguros)**  
+### **🏦 Front-End Developer | Banco do Brasil & Mapfre (Insurance Group)**  
 📅 **2010 - 2015**  
-- Desenvolvimento de **portais web corporativos** em **JavaScript, jQuery, AJAX, HTML, CSS**.  
-- Manutenção de sistemas legados **PHP** e **.NET**.  
-- Integração com **bancos de dados SQL Server e Oracle**.  
-- Uso de **GIT e SVN** para controle de versão.  
+- Developed **corporate web portals** using **JavaScript, jQuery, AJAX, HTML, CSS**.  
+- Maintained legacy systems in **PHP** and **.NET**.  
+- Integrated with **SQL Server and Oracle databases**.  
+- Used **GIT and SVN** for version control.  
 
-### **📊 Desenvolvedor Front-End & UI Designer | FIPECAFI**  
+### **📊 Front-End Developer & UI Designer | FIPECAFI**  
 📅 **2007 - 2010**  
-- Criação de **interfaces interativas** usando **Flash (ActionScript)**, HTML e CSS.  
-- Aplicação de **SEO** e estratégias de marketing digital.  
-- Integração com back-end **PHP e MySQL**.  
+- Created **interactive interfaces** using **Flash (ActionScript), HTML, and CSS**.  
+- Applied **SEO** strategies and digital marketing techniques.  
+- Integrated with **PHP and MySQL** back-end services.  
 
-### **🎨 Desenvolvedor Front-End & Designer | KYU Digital Agency**  
+### **🎨 Front-End Developer & Designer | KYU Digital Agency**  
 📅 **2005 - 2007**  
-- Desenvolvimento de **websites dinâmicos** usando **PHP, JavaScript e CSS**.  
-- Criação de banners em **Flash** e design de UI/UX.  
-- Manutenção de servidores Apache e MySQL.  
+- Developed **dynamic websites** using **PHP, JavaScript, and CSS**.  
+- Designed banners in **Flash** and UI/UX elements.  
+- Maintained Apache and MySQL servers.  
 
-### **💻 Desenvolvedor Web | HIS Internet Solutions**  
+### **💻 Web Developer | HIS Internet Solutions**  
 📅 **2002 - 2005**  
-- Desenvolvimento de sites institucionais em **ASP, PHP e HTML4**.  
-- Integração com bancos de dados **SQL Server e MySQL**.  
-- Design de interfaces e otimização de performance.  
+- Built institutional websites using **ASP, PHP, and HTML4**.  
+- Integrated **SQL Server and MySQL databases**.  
+- Designed interfaces and optimized performance.  
 
 ### **📢 Designer & Web Developer | Mercado Livre**  
 📅 **2000 - 2001**  
-- Criação de **banners publicitários** para campanhas digitais.  
-- Desenvolvimento de **landing pages otimizadas para conversão**.  
-- Animações em **Flash (ActionScript)**.  
+- Created **advertising banners** for digital campaigns.  
+- Developed **conversion-optimized landing pages**.  
+- Created animations in **Flash (ActionScript)**.  
 
 ---
 
-## **🎓 Educação**  
+## **🎓 Education**  
 🎓 **Centro Universitário FMU - FIAM-FAAM**  
-📅 **Bacharelado em Tecnologia da Informação – Sistemas de Informação**  
+📅 **Bachelor's Degree in Information Technology – Information Systems**  
 
 🎓 **Universidade Anhembi Morumbi**  
-📅 **Graduação Modular: Criação e Desenvolvimento de Websites**  
+📅 **Modular Degree: Web Design and Development**  
 
 ---
 
-## **🛠️ Tech Stack & Competências**  
+## **🛠️ Tech Stack & Skills**  
 
 ### **🚀 Front-End**  
 ✅ HTML5, CSS3, JavaScript (ES6+), TypeScript  
@@ -90,7 +90,7 @@ Atualmente atuando como **Front-End Developer na Almaviva Solutions**, focado em
 
 ### **🖥️ Back-End**  
 ✅ PHP, Node.js, Python  
-✅ APIs RESTful, GraphQL  
+✅ RESTful APIs, GraphQL  
 ✅ Express.js, NestJS, Laravel  
 ✅ Apache, Nginx  
 
@@ -100,22 +100,20 @@ Atualmente atuando como **Front-End Developer na Almaviva Solutions**, focado em
 ✅ Jenkins, CI/CD pipelines  
 ✅ Git, GitHub Actions, Terraform  
 
-### **📊 Bancos de Dados**  
+### **📊 Databases**  
 ✅ MySQL, PostgreSQL, MariaDB, MongoDB, Redis  
 
-### **🛠️ Ferramentas**  
+### **🛠️ Tools**  
 ✅ Visual Studio Code, IntelliJ IDEA  
 ✅ Git, GitHub, GitLab, Bitbucket  
 ✅ Trello, Jira, Slack  
 
 ---
 
-## **🌎 Idiomas**  
-🇧🇷 **Português:** Nativo  
-🇺🇸 **Inglês:** Avançado (leitura, escrita e conversação)  
+## **🌎 Languages**  
+🇧🇷 **Portuguese:** Native  
+🇺🇸 **English:** Advanced (reading, writing, and conversation)  
 
 ---
 
-🚀 **Portfólio & Projetos Open Source:** [GitHub](https://github.com/danielangelone)  
-
----
+🚀 **Portfolio & Open Source Projects:** [GitHub](https://github.com/danielangelone)  
