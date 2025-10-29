@@ -117,3 +117,4 @@ Currently working as a **Front-End Developer at Almaviva Solutions**, focusing o
 ---
 
 🚀 **Portfolio & Open Source Projects:** [GitHub](https://github.com/danielangelone)  
+](https://github.com/danielangelone/cv/blob/main/english.md)
