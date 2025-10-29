@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Daniel Angelone – CV</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --text: #2d3748;
+      --text-light: #4a5568;
+      --primary: #2563eb;
+      --accent: #0d9488;
+      --bg: #ffffff;
+      --border: #e2e8f0;
+      --code-bg: #f8fafc;
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+      color: var(--text);
+      line-height: 1.6;
+      background: var(--bg);
+      padding: 40px;
+      max-width: 900px;
+      margin: 0 auto;
+      font-size: 14px;
+    }
+
+    @media print {
+      body {
+        padding: 20px;
+        font-size: 12pt;
+      }
+      a[href]::after {
+        content: none !important;
+      }
+    }
+
+    h1, h2, h3 {
+      font-weight: 700;
+      margin-bottom: 12px;
+      color: var(--text);
+    }
+
+    h1 {
+      font-size: 28px;
+      margin-bottom: 8px;
+    }
+
+    h2 {
+      font-size: 18px;
+      margin-top: 28px;
+      padding-bottom: 6px;
+      border-bottom: 2px solid var(--border);
+      color: var(--primary);
+    }
+
+    h3 {
+      font-size: 15px;
+      margin-top: 18px;
+      display: flex;
+      justify-content: space-between;
+    }
+
+    p {
+      margin-bottom: 12px;
+    }
+
+    ul {
+      padding-left: 20px;
+      margin-bottom: 12px;
+    }
+
+    li {
+      margin-bottom: 6px;
+    }
+
+    a {
+      color: var(--primary);
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    .header {
+      text-align: center;
+      margin-bottom: 30px;
+    }
+
+    .name {
+      font-size: 32px;
+      font-weight: 800;
+      margin-bottom: 6px;
+    }
+
+    .title {
+      font-size: 18px;
+      color: var(--text-light);
+      margin-bottom: 16px;
+    }
+
+    .contact {
+      display: flex;
+      justify-content: center;
+      gap: 24px;
+      flex-wrap: wrap;
+      font-size: 14px;
+      color: var(--text-light);
+    }
+
+    .section {
+      margin-bottom: 24px;
+    }
+
+    .job {
+      margin-bottom: 20px;
+    }
+
+    .job-title {
+      font-weight: 600;
+    }
+
+    .company {
+      font-weight: 500;
+      color: var(--primary);
+    }
+
+    .date {
+      color: var(--text-light);
+      font-style: italic;
+    }
+
+    .skills-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+      gap: 12px;
+      margin-top: 10px;
+    }
+
+    .skill-category {
+      margin-bottom: 16px;
+    }
+
+    .skill-category h4 {
+      font-size: 14px;
+      font-weight: 600;
+      margin-bottom: 6px;
+      color: var(--text);
+    }
+
+    .skill-list {
+      list-style: none;
+      padding: 0;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+    }
+
+    .skill-item {
+      background: var(--code-bg);
+      padding: 4px 10px;
+      border-radius: 4px;
+      font-size: 13px;
+      font-family: 'JetBrains Mono', monospace;
+      color: var(--text);
+    }
+
+    .languages {
+      display: flex;
+      gap: 20px;
+    }
+
+    .language {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+
+    .flag {
+      font-size: 18px;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="header">
+    <div class="name">Daniel Angelone</div>
+    <div class="title">Full-Stack Developer | Cloud & DevOps Engineer | WordPress Security Specialist</div>
+    <div class="contact">
+      <span>📍 Vinhedo - SP, Brasil</span>
+      <span>📧 <a href="mailto:daniel.angelone@gmail.com">daniel.angelone@gmail.com</a></span>
+      <span>💼 <a href="#">LinkedIn</a></span>
+      <span>🚀 <a href="https://github.com/danielangelone">GitHub</a></span>
+    </div>
+  </div>
+
+  <div class="section">
+    <h2>💡 Professional Summary</h2>
+    <p>Senior developer with <strong>20+ years of experience</strong> building secure, scalable, and user-centric web applications. Combines deep front-end expertise (UX/UI, high-fidelity prototyping) with robust back-end, cloud infrastructure, and DevOps practices.</p>
+    <p>Passionate about <strong>application security, WordPress hardening</strong>, and <strong>end-to-end ownership</strong> of digital products — from Figma mockups to GCP deployment.</p>
+  </div>
+
+  <div class="section">
+    <h2>💼 Professional Experience</h2>
+
+    <div class="job">
+      <h3>
+        <span><span class="job-title">Full-Stack Developer</span> | <span class="company">Almaviva Solutions</span></span>
+        <span class="date">Apr 2024 – Present</span>
+      </h3>
+      <ul>
+        <li>Architected and developed secure, responsive web applications using React + PHP with PostgreSQL.</li>
+        <li>Managed GCP infrastructure, including Cloud Storage (Buckets) for static assets and media.</li>
+        <li>Implemented CI/CD pipelines via GitHub Actions and containerized services with Docker.</li>
+        <li>Optimized Nginx/Apache configurations for performance, caching, and security headers.</li>
+        <li>Designed and consumed RESTful APIs with strict input validation and rate limiting.</li>
+      </ul>
+    </div>
+
+    <div class="job">
+      <h3>
+        <span><span class="job-title">Full-Stack Developer</span> | <span class="company">MagnaSistemas</span></span>
+        <span class="date">2023 – 2024</span>
+      </h3>
+      <ul>
+        <li>Built high-traffic, accessible interfaces integrated with PHP backends and PostgreSQL.</li>
+        <li>Deployed and monitored applications on AWS and GCP, applying cost- and performance-aware practices.</li>
+        <li>Conducted security reviews and applied hardening techniques to WordPress and custom PHP apps.</li>
+        <li>Collaborated closely with UX designers using Figma prototypes as development blueprints.</li>
+      </ul>
+    </div>
+
+    <div class="job">
+      <h3>
+        <span><span class="job-title">Front-End & Integration Developer</span> | <span class="company">Banco do Brasil & Mapfre</span></span>
+        <span class="date">2010 – 2015</span>
+      </h3>
+      <ul>
+        <li>Developed enterprise portals with JavaScript, jQuery, HTML/CSS, and legacy PHP/.NET systems.</li>
+        <li>Integrated with SQL Server and Oracle, ensuring data consistency and secure transactions.</li>
+        <li>Managed version control via Git and SVN in regulated environments.</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="section">
+    <h2>🎓 Education</h2>
+    <p><strong>Centro Universitário FMU - FIAM-FAAM</strong><br>
+    Bachelor’s in Information Systems</p>
+    <p><strong>Universidade Anhembi Morumbi</strong><br>
+    Modular Program: Website Creation & Development</p>
+  </div>
+
+  <div class="section">
+    <h2>🛠️ Tech Stack</h2>
+
+    <div class="skills-grid">
+      <div class="skill-category">
+        <h4>🎨 Front-End & Design</h4>
+        <ul class="skill-list">
+          <li class="skill-item">HTML5</li>
+          <li class="skill-item">CSS3</li>
+          <li class="skill-item">TypeScript</li>
+          <li class="skill-item">React</li>
+          <li class="skill-item">Vue.js</li>
+          <li class="skill-item">Figma</li>
+          <li class="skill-item">TailwindCSS</li>
+          <li class="skill-item">Accessibility</li>
+        </ul>
+      </div>
+
+      <div class="skill-category">
+        <h4>⚙️ Back-End & CMS</h4>
+        <ul class="skill-list">
+          <li class="skill-item">PHP</li>
+          <li class="skill-item">Node.js</li>
+          <li class="skill-item">Python</li>
+          <li class="skill-item">WordPress</li>
+          <li class="skill-item">Laravel</li>
+          <li class="skill-item">Express.js</li>
+          <li class="skill-item">REST/GraphQL</li>
+        </ul>
+      </div>
+
+      <div class="skill-category">
+        <h4>☁️ Cloud, DevOps & Security</h4>
+        <ul class="skill-list">
+          <li class="skill-item">GCP</li>
+          <li class="skill-item">AWS</li>
+          <li class="skill-item">Docker</li>
+          <li class="skill-item">GitHub Actions</li>
+          <li class="skill-item">CI/CD</li>
+          <li class="skill-item">Terraform</li>
+          <li class="skill-item">Secure Coding</li>
+          <li class="skill-item">WP Security</li>
+        </ul>
+      </div>
+
+      <div class="skill-category">
+        <h4>🗃️ Databases</h4>
+        <ul class="skill-list">
+          <li class="skill-item">MySQL</li>
+          <li class="skill-item">PostgreSQL</li>
+          <li class="skill-item">MongoDB</li>
+          <li class="skill-item">Redis</li>
+          <li class="skill-item">MariaDB</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <div class="section">
+    <h2>🌎 Languages</h2>
+    <div class="languages">
+      <div class="language">
+        <span class="flag">🇧🇷</span>
+        <span><strong>Portuguese:</strong> Native</span>
+      </div>
+      <div class="language">
+        <span class="flag">🇺🇸</span>
+        <span><strong>English:</strong> Advanced (professional fluency)</span>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>
