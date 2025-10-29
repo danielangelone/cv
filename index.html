@@ -18,6 +18,18 @@
       --code-bg: #f8fafc;
     }
 
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --text: #e2e8f0;
+        --text-light: #a0aec0;
+        --primary: #4299e1;
+        --accent: #319795;
+        --bg: #1a202c;
+        --border: #2d3748;
+        --code-bg: #2d3748;
+      }
+    }
+
     * {
       margin: 0;
       padding: 0;
@@ -33,12 +45,22 @@
       max-width: 900px;
       margin: 0 auto;
       font-size: 14px;
+      transition: background 0.3s ease, color 0.3s ease;
     }
 
     @media print {
       body {
         padding: 20px;
         font-size: 12pt;
+      }
+      :root {
+        --bg: #ffffff;
+        --text: #2d3748;
+        --text-light: #4a5568;
+        --primary: #2563eb;
+        --accent: #0d9488;
+        --border: #e2e8f0;
+        --code-bg: #f8fafc;
       }
       a[href]::after {
         content: none !important;
@@ -69,6 +91,7 @@
       margin-top: 18px;
       display: flex;
       justify-content: space-between;
+      align-items: baseline;
     }
 
     p {
@@ -87,10 +110,12 @@
     a {
       color: var(--primary);
       text-decoration: none;
+      transition: color 0.2s ease;
     }
 
     a:hover {
       text-decoration: underline;
+      color: var(--accent);
     }
 
     .header {
@@ -139,12 +164,13 @@
     .date {
       color: var(--text-light);
       font-style: italic;
+      font-size: 0.9em;
     }
 
     .skills-grid {
       display: grid;
       grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-      gap: 12px;
+      gap: 16px;
       margin-top: 10px;
     }
 
@@ -155,7 +181,7 @@
     .skill-category h4 {
       font-size: 14px;
       font-weight: 600;
-      margin-bottom: 6px;
+      margin-bottom: 8px;
       color: var(--text);
     }
 
@@ -169,16 +195,22 @@
 
     .skill-item {
       background: var(--code-bg);
-      padding: 4px 10px;
-      border-radius: 4px;
+      padding: 6px 12px;
+      border-radius: 6px;
       font-size: 13px;
       font-family: 'JetBrains Mono', monospace;
       color: var(--text);
+      transition: background 0.2s ease;
+    }
+
+    .skill-item:hover {
+      background: var(--border);
     }
 
     .languages {
       display: flex;
       gap: 20px;
+      flex-wrap: wrap;
     }
 
     .language {
@@ -190,31 +222,65 @@
     .flag {
       font-size: 18px;
     }
+
+    @media (max-width: 600px) {
+      body {
+        padding: 20px;
+        font-size: 13px;
+      }
+
+      .name {
+        font-size: 28px;
+      }
+
+      .title {
+        font-size: 16px;
+      }
+
+      .contact {
+        gap: 16px;
+        font-size: 13px;
+      }
+
+      h2 {
+        font-size: 16px;
+      }
+
+      h3 {
+        font-size: 14px;
+        flex-direction: column;
+        gap: 4px;
+      }
+
+      .skills-grid {
+        grid-template-columns: 1fr;
+      }
+    }
   </style>
 </head>
 <body>
 
-  <div class="header">
-    <div class="name">Daniel Angelone</div>
+  <header class="header">
+    <h1 class="name">Daniel Angelone</h1>
     <div class="title">Full-Stack Developer | Cloud & DevOps Engineer | WordPress Security Specialist</div>
     <div class="contact">
       <span>📍 Vinhedo - SP, Brasil</span>
       <span>📧 <a href="mailto:daniel.angelone@gmail.com">daniel.angelone@gmail.com</a></span>
-      <span>💼 <a href="#">LinkedIn</a></span>
-      <span>🚀 <a href="https://github.com/danielangelone">GitHub</a></span>
+      <span>💼 <a href="#" rel="noopener noreferrer">LinkedIn</a></span>
+      <span>🚀 <a href="https://github.com/danielangelone" rel="noopener noreferrer">GitHub</a></span>
     </div>
-  </div>
+  </header>
 
-  <div class="section">
+  <section class="section">
     <h2>💡 Professional Summary</h2>
     <p>Senior developer with <strong>20+ years of experience</strong> building secure, scalable, and user-centric web applications. Combines deep front-end expertise (UX/UI, high-fidelity prototyping) with robust back-end, cloud infrastructure, and DevOps practices.</p>
     <p>Passionate about <strong>application security, WordPress hardening</strong>, and <strong>end-to-end ownership</strong> of digital products — from Figma mockups to GCP deployment.</p>
-  </div>
+  </section>
 
-  <div class="section">
+  <section class="section">
     <h2>💼 Professional Experience</h2>
 
-    <div class="job">
+    <article class="job">
       <h3>
         <span><span class="job-title">Full-Stack Developer</span> | <span class="company">Almaviva Solutions</span></span>
         <span class="date">Apr 2024 – Present</span>
@@ -226,9 +292,9 @@
         <li>Optimized Nginx/Apache configurations for performance, caching, and security headers.</li>
         <li>Designed and consumed RESTful APIs with strict input validation and rate limiting.</li>
       </ul>
-    </div>
+    </article>
 
-    <div class="job">
+    <article class="job">
       <h3>
         <span><span class="job-title">Full-Stack Developer</span> | <span class="company">MagnaSistemas</span></span>
         <span class="date">2023 – 2024</span>
@@ -239,9 +305,9 @@
         <li>Conducted security reviews and applied hardening techniques to WordPress and custom PHP apps.</li>
         <li>Collaborated closely with UX designers using Figma prototypes as development blueprints.</li>
       </ul>
-    </div>
+    </article>
 
-    <div class="job">
+    <article class="job">
       <h3>
         <span><span class="job-title">Front-End & Integration Developer</span> | <span class="company">Banco do Brasil & Mapfre</span></span>
         <span class="date">2010 – 2015</span>
@@ -251,18 +317,18 @@
         <li>Integrated with SQL Server and Oracle, ensuring data consistency and secure transactions.</li>
         <li>Managed version control via Git and SVN in regulated environments.</li>
       </ul>
-    </div>
-  </div>
+    </article>
+  </section>
 
-  <div class="section">
+  <section class="section">
     <h2>🎓 Education</h2>
     <p><strong>Centro Universitário FMU - FIAM-FAAM</strong><br>
     Bachelor’s in Information Systems</p>
     <p><strong>Universidade Anhembi Morumbi</strong><br>
     Modular Program: Website Creation & Development</p>
-  </div>
+  </section>
 
-  <div class="section">
+  <section class="section">
     <h2>🛠️ Tech Stack</h2>
 
     <div class="skills-grid">
@@ -318,9 +384,9 @@
         </ul>
       </div>
     </div>
-  </div>
+  </section>
 
-  <div class="section">
+  <section class="section">
     <h2>🌎 Languages</h2>
     <div class="languages">
       <div class="language">
@@ -332,7 +398,7 @@
         <span><strong>English:</strong> Advanced (professional fluency)</span>
       </div>
     </div>
-  </div>
+  </section>
 
 </body>
 </html>
