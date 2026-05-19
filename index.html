@@ -1,19 +1,23 @@
+
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Daniel Angelone – Full-Stack Developer</title>
+  <title>Daniel Angelone – Backend, Cloud & Segurança</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
   <script src="https://cdn.tailwindcss.com"></script>
   <script>
     tailwind.config = {
       theme: {
         extend: {
-          fontFamily: { sans: ["Inter", "system-ui", "sans-serif"], mono: ["JetBrains Mono", "monospace"] },
-          colors: { accent: "#1e3a5f" }
+          fontFamily: { sans: ["Inter", "system-ui"], mono: ["JetBrains Mono", "monospace"] },
+          colors: { 
+            security: "#0f172a",
+            accent: "#059669",
+            cloud: "#0369a1"
+          }
         }
       }
     }
@@ -30,41 +34,33 @@
 </head>
 <body class="bg-slate-50 text-slate-800 antialiased">
 
-  <header class="bg-white border-b-2 border-accent/20 py-8 md:py-10 px-4 print-card">
-    <div class="max-w-6xl mx-auto">
+  <!-- HEADER -->
+  <header class="bg-security text-white py-10 px-4 print-card">
+    <div class="max-w-5xl mx-auto">
       <div class="flex flex-col md:flex-row md:items-center md:justify-between gap-6">
         <div class="flex-1">
-          <h1 class="text-3xl md:text-4xl font-extrabold tracking-tight text-slate-900 mb-1">Daniel Angelone</h1>
-          <p class="text-base md:text-lg text-accent font-semibold tracking-wide uppercase mb-4">Desenvolvedor Full-Stack</p>
-          <p class="text-sm text-slate-600 leading-relaxed max-w-2xl">
-            Profissional com <strong>mais de 20 anos de experiencia</strong> em desenvolvimento de software, 
-            arquitetura de sistemas escalaveis e lideranca tecnica em ambientes corporativos. 
-            Especialista em transformar legados tecnologicos em infraestrutura moderna, 
-            com foco em performance, seguranca e resultados de negocio.
+          <h1 class="text-3xl md:text-4xl font-extrabold tracking-tight mb-2">Daniel Angelone</h1>
+          <p class="text-lg md:text-xl text-emerald-400 font-semibold tracking-wide uppercase mb-4">Backend, Cloud & Segurança</p>
+          <p class="text-sm text-slate-300 leading-relaxed max-w-2xl">
+            Desenvolvedor com <strong>20+ anos de experiência</strong> construindo sistemas que precisam funcionar. 
+            Hoje foco em backend robusto, infraestrutura cloud e proteção de dados. 
+            <span class="text-emerald-400 font-semibold">LGPD + código seguro + cloud</span> no dia a dia.
           </p>
         </div>
-        <div class="bg-slate-50 rounded-lg p-5 border border-slate-200 min-w-[280px]">
-          <h3 class="text-xs font-bold uppercase tracking-widest text-accent mb-3 pb-2 border-b border-slate-200">Informacoes de Contato</h3>
-          <ul class="space-y-2.5 text-sm text-slate-700">
+        <div class="bg-white/10 backdrop-blur rounded-lg p-5 border border-white/20 min-w-[260px]">
+          <h3 class="text-xs font-bold uppercase tracking-widest text-emerald-400 mb-3 pb-2 border-b border-white/20">Contato</h3>
+          <ul class="space-y-2.5 text-sm text-slate-200">
             <li class="flex items-center gap-2.5">
-              <span class="w-5 h-5 flex items-center justify-center text-accent text-xs font-bold bg-accent/10 rounded">@</span>
-              <a href="mailto:daniel.angelone@gmail.com" class="hover:text-accent transition-colors font-medium">daniel.angelone@gmail.com</a>
+              <span class="w-5 h-5 flex items-center justify-center text-emerald-400 text-xs font-bold bg-emerald-400/20 rounded">@</span>
+              <a href="mailto:daniel.angelone@gmail.com" class="hover:text-emerald-400 transition-colors">daniel.angelone@gmail.com</a>
             </li>
             <li class="flex items-center gap-2.5">
-              <span class="w-5 h-5 flex items-center justify-center text-accent text-xs font-bold bg-accent/10 rounded">in</span>
-              <a href="https://www.linkedin.com/in/danielangelone/" class="hover:text-accent transition-colors font-medium">linkedin.com/in/danielangelone</a>
+              <span class="w-5 h-5 flex items-center justify-center text-emerald-400 text-xs font-bold bg-emerald-400/20 rounded">in</span>
+              <a href="https://www.linkedin.com/in/danielangelone/" class="hover:text-emerald-400 transition-colors">linkedin.com/in/danielangelone</a>
             </li>
             <li class="flex items-center gap-2.5">
-              <span class="w-5 h-5 flex items-center justify-center text-accent text-xs font-bold bg-accent/10 rounded">gh</span>
-              <a href="https://github.com/danielangelone" class="hover:text-accent transition-colors font-medium">github.com/danielangelone</a>
-            </li>
-            <li class="flex items-center gap-2.5">
-              <span class="w-5 h-5 flex items-center justify-center text-accent text-xs font-bold bg-accent/10 rounded">W</span>
-              <span class="text-slate-600">angelone.cv</span>
-            </li>
-            <li class="flex items-center gap-2.5">
-              <span class="w-5 h-5 flex items-center justify-center text-accent text-xs font-bold bg-accent/10 rounded">L</span>
-              <span class="text-slate-600">Sao Paulo, Brasil - Disponivel para realocacao UE</span>
+              <span class="w-5 h-5 flex items-center justify-center text-emerald-400 text-xs font-bold bg-emerald-400/20 rounded">gh</span>
+              <a href="https://github.com/danielangelone" class="hover:text-emerald-400 transition-colors">github.com/danielangelone</a>
             </li>
           </ul>
         </div>
@@ -72,37 +68,45 @@
     </div>
   </header>
 
-  <div class="max-w-6xl mx-auto px-4 py-8 grid grid-cols-1 md:grid-cols-[300px_1fr] gap-6">
+  <div class="max-w-5xl mx-auto px-4 py-8 grid grid-cols-1 md:grid-cols-[280px_1fr] gap-6">
+    
+    <!-- SIDEBAR -->
     <aside class="space-y-6">
+      
+      <!-- CORE STACK -->
       <section class="bg-white rounded-lg shadow-sm p-5 border border-slate-200 print-card page-break">
-        <h2 class="text-xs font-bold uppercase tracking-widest text-accent mb-4 pb-2 border-b border-slate-200">Competencias Tecnicas</h2>
+        <h2 class="text-xs font-bold uppercase tracking-widest text-security mb-4 pb-2 border-b border-slate-200">Stack Principal</h2>
         <div class="space-y-4">
           <div>
-            <h3 class="text-xs font-semibold text-slate-500 uppercase tracking-wider mb-2">Front-end</h3>
+            <h3 class="text-xs font-semibold text-emerald-700 uppercase tracking-wider mb-2">Backend & APIs</h3>
             <div class="flex flex-wrap gap-1.5">
-              <span class="inline-block bg-slate-100 text-slate-700 text-xs font-medium px-2 py-1 rounded border border-slate-200">React / Next.js</span>
-              <span class="inline-block bg-slate-100 text-slate-700 text-xs font-medium px-2 py-1 rounded border border-slate-200">Vue / Nuxt</span>
-              <span class="inline-block bg-slate-100 text-slate-700 text-xs font-medium px-2 py-1 rounded border border-slate-200">TypeScript</span>
-              <span class="inline-block bg-slate-100 text-slate-700 text-xs font-medium px-2 py-1 rounded border border-slate-200">TailwindCSS</span>
+              <span class="inline-block bg-emerald-50 text-emerald-800 text-xs font-semibold px-2 py-1 rounded border border-emerald-200">Node.js</span>
+              <span class="inline-block bg-emerald-50 text-emerald-800 text-xs font-semibold px-2 py-1 rounded border border-emerald-200">PHP / Laravel</span>
+              <span class="inline-block bg-emerald-50 text-emerald-800 text-xs font-semibold px-2 py-1 rounded border border-emerald-200">Python / FastAPI</span>
+              <span class="inline-block bg-emerald-50 text-emerald-800 text-xs font-semibold px-2 py-1 rounded border border-emerald-200">.NET</span>
+              <span class="inline-block bg-emerald-50 text-emerald-800 text-xs font-semibold px-2 py-1 rounded border border-emerald-200">REST / GraphQL</span>
+              <span class="inline-block bg-emerald-50 text-emerald-800 text-xs font-semibold px-2 py-1 rounded border border-emerald-200">WordPress (Plugins/Security)</span>
             </div>
           </div>
           <div>
-            <h3 class="text-xs font-semibold text-slate-500 uppercase tracking-wider mb-2">Back-end</h3>
+            <h3 class="text-xs font-semibold text-sky-700 uppercase tracking-wider mb-2">Cloud & Infraestrutura</h3>
             <div class="flex flex-wrap gap-1.5">
-              <span class="inline-block bg-slate-100 text-slate-700 text-xs font-medium px-2 py-1 rounded border border-slate-200">Node.js</span>
-              <span class="inline-block bg-slate-100 text-slate-700 text-xs font-medium px-2 py-1 rounded border border-slate-200">PHP / Laravel</span>
-              <span class="inline-block bg-slate-100 text-slate-700 text-xs font-medium px-2 py-1 rounded border border-slate-200">Python / FastAPI</span>
-              <span class="inline-block bg-slate-100 text-slate-700 text-xs font-medium px-2 py-1 rounded border border-slate-200">REST / GraphQL</span>
+              <span class="inline-block bg-sky-50 text-sky-800 text-xs font-semibold px-2 py-1 rounded border border-sky-200">Google Cloud (GCP)</span>
+              <span class="inline-block bg-sky-50 text-sky-800 text-xs font-semibold px-2 py-1 rounded border border-sky-200">AWS</span>
+              <span class="inline-block bg-sky-50 text-sky-800 text-xs font-semibold px-2 py-1 rounded border border-sky-200">Docker</span>
+              <span class="inline-block bg-sky-50 text-sky-800 text-xs font-semibold px-2 py-1 rounded border border-sky-200">CI/CD</span>
+              <span class="inline-block bg-sky-50 text-sky-800 text-xs font-semibold px-2 py-1 rounded border border-sky-200">Terraform</span>
+              <span class="inline-block bg-sky-50 text-sky-800 text-xs font-semibold px-2 py-1 rounded border border-sky-200">Buckets / Storage</span>
             </div>
           </div>
           <div>
-            <h3 class="text-xs font-semibold text-slate-500 uppercase tracking-wider mb-2">Cloud & DevOps</h3>
+            <h3 class="text-xs font-semibold text-rose-700 uppercase tracking-wider mb-2">Segurança & Compliance</h3>
             <div class="flex flex-wrap gap-1.5">
-              <span class="inline-block bg-slate-100 text-slate-700 text-xs font-medium px-2 py-1 rounded border border-slate-200">Google Cloud (GCP)</span>
-              <span class="inline-block bg-slate-100 text-slate-700 text-xs font-medium px-2 py-1 rounded border border-slate-200">AWS</span>
-              <span class="inline-block bg-slate-100 text-slate-700 text-xs font-medium px-2 py-1 rounded border border-slate-200">Docker</span>
-              <span class="inline-block bg-slate-100 text-slate-700 text-xs font-medium px-2 py-1 rounded border border-slate-200">CI/CD</span>
-              <span class="inline-block bg-slate-100 text-slate-700 text-xs font-medium px-2 py-1 rounded border border-slate-200">Terraform</span>
+              <span class="inline-block bg-rose-50 text-rose-800 text-xs font-semibold px-2 py-1 rounded border border-rose-200">LGPD / GDPR</span>
+              <span class="inline-block bg-rose-50 text-rose-800 text-xs font-semibold px-2 py-1 rounded border border-rose-200">OWASP</span>
+              <span class="inline-block bg-rose-50 text-rose-800 text-xs font-semibold px-2 py-1 rounded border border-rose-200">Server Hardening</span>
+              <span class="inline-block bg-rose-50 text-rose-800 text-xs font-semibold px-2 py-1 rounded border border-rose-200">CSP / Headers</span>
+              <span class="inline-block bg-rose-50 text-rose-800 text-xs font-semibold px-2 py-1 rounded border border-rose-200">Pentest Básico</span>
             </div>
           </div>
           <div>
@@ -110,226 +114,268 @@
             <div class="flex flex-wrap gap-1.5">
               <span class="inline-block bg-slate-100 text-slate-700 text-xs font-medium px-2 py-1 rounded border border-slate-200">PostgreSQL</span>
               <span class="inline-block bg-slate-100 text-slate-700 text-xs font-medium px-2 py-1 rounded border border-slate-200">MySQL / MariaDB</span>
-              <span class="inline-block bg-slate-100 text-slate-700 text-xs font-medium px-2 py-1 rounded border border-slate-200">MongoDB</span>
-              <span class="inline-block bg-slate-100 text-slate-700 text-xs font-medium px-2 py-1 rounded border border-slate-200">Redis</span>
               <span class="inline-block bg-slate-100 text-slate-700 text-xs font-medium px-2 py-1 rounded border border-slate-200">Oracle</span>
               <span class="inline-block bg-slate-100 text-slate-700 text-xs font-medium px-2 py-1 rounded border border-slate-200">SQL Server</span>
+              <span class="inline-block bg-slate-100 text-slate-700 text-xs font-medium px-2 py-1 rounded border border-slate-200">MongoDB</span>
+              <span class="inline-block bg-slate-100 text-slate-700 text-xs font-medium px-2 py-1 rounded border border-slate-200">Redis</span>
             </div>
           </div>
         </div>
       </section>
 
+      <!-- CERTIFICATIONS -->
       <section class="bg-white rounded-lg shadow-sm p-5 border border-slate-200 print-card page-break">
-        <h2 class="text-xs font-bold uppercase tracking-widest text-accent mb-4 pb-2 border-b border-slate-200">Idiomas</h2>
-        <ul class="text-sm space-y-3 text-slate-700">
-          <li class="flex justify-between items-center">
-            <span class="font-semibold text-slate-800">Portugues</span>
-            <span class="text-xs font-medium text-slate-600 bg-slate-100 px-2.5 py-1 rounded border border-slate-200">Nativo</span>
-          </li>
-          <li class="flex justify-between items-center">
-            <span class="font-semibold text-slate-800">Ingles</span>
-            <span class="text-xs font-medium text-slate-600 bg-slate-100 px-2.5 py-1 rounded border border-slate-200">C1 - Avancado</span>
-          </li>
+        <h2 class="text-xs font-bold uppercase tracking-widest text-security mb-4 pb-2 border-b border-slate-200">Certificações em Andamento</h2>
+        <ul class="text-sm space-y-2 text-slate-700">
+          <li class="flex items-start gap-2"><span class="text-emerald-600 mt-0.5">▸</span><span>Cloud Architecture (GCP)</span></li>
+          <li class="flex items-start gap-2"><span class="text-emerald-600 mt-0.5">▸</span><span>DevSecOps</span></li>
+          <li class="flex items-start gap-2"><span class="text-emerald-600 mt-0.5">▸</span><span>Terraform & Infraestrutura como Código</span></li>
+          <li class="flex items-start gap-2"><span class="text-emerald-600 mt-0.5">▸</span><span>LGPD & Governança de Dados</span></li>
         </ul>
-        <p class="text-xs text-slate-400 mt-3 italic">Nivel de referencia: Quadro Europeu Comum (CEFR)</p>
       </section>
 
+      <!-- LANGUAGES -->
       <section class="bg-white rounded-lg shadow-sm p-5 border border-slate-200 print-card page-break">
-        <h2 class="text-xs font-bold uppercase tracking-widest text-accent mb-4 pb-2 border-b border-slate-200">Certificacoes em Andamento</h2>
-        <ul class="text-sm space-y-2 text-slate-600">
-          <li class="flex items-start gap-2"><span class="text-accent mt-0.5">&#9656;</span><span>Cloud Architecture (GCP)</span></li>
-          <li class="flex items-start gap-2"><span class="text-accent mt-0.5">&#9656;</span><span>React Avancado e Arquitetura Frontend</span></li>
-          <li class="flex items-start gap-2"><span class="text-accent mt-0.5">&#9656;</span><span>DevSecOps</span></li>
-          <li class="flex items-start gap-2"><span class="text-accent mt-0.5">&#9656;</span><span>Terraform e Infraestrutura como Codigo</span></li>
+        <h2 class="text-xs font-bold uppercase tracking-widest text-security mb-4 pb-2 border-b border-slate-200">Idiomas</h2>
+        <ul class="text-sm space-y-3 text-slate-700">
+          <li class="flex justify-between items-center">
+            <span class="font-semibold">Português</span>
+            <span class="text-xs font-medium bg-emerald-100 text-emerald-800 px-2.5 py-1 rounded">Nativo</span>
+          </li>
+          <li class="flex justify-between items-center">
+            <span class="font-semibold">Inglês</span>
+            <span class="text-xs font-medium bg-sky-100 text-sky-800 px-2.5 py-1 rounded">C1 — Avançado</span>
+          </li>
         </ul>
       </section>
     </aside>
 
+    <!-- MAIN CONTENT -->
     <main class="space-y-6">
+
+      <!-- EXPERIENCE -->
       <section class="bg-white rounded-lg shadow-sm p-6 md:p-8 border border-slate-200 print-card page-break">
-        <h2 class="text-lg font-bold text-slate-900 mb-5 pb-2 border-b-2 border-accent/20 uppercase tracking-wide">Experiencia Profissional</h2>
+        <h2 class="text-lg font-bold text-security mb-5 pb-2 border-b-2 border-emerald-500/30 uppercase tracking-wide">Experiência Profissional</h2>
 
-        <div class="mb-6 pb-6 border-b border-dashed border-slate-200 last:border-0 last:mb-0 last:pb-0">
-          <div class="flex flex-wrap justify-between items-baseline gap-2 mb-2">
+        <!-- PRODESP -->
+        <div class="mb-8 pb-8 border-b border-dashed border-slate-200">
+          <div class="flex flex-wrap justify-between items-baseline gap-2 mb-3">
+            <div>
+              <h3 class="text-base font-bold text-slate-900">Backend & Segurança de Infraestrutura</h3>
+              <span class="text-emerald-700 font-semibold text-sm">PRODESP — Companhia de Processamento de Dados do Estado de SP</span>
+            </div>
+            <span class="text-xs font-medium bg-emerald-100 text-emerald-800 px-3 py-1 rounded-full whitespace-nowrap">2024 — Presente</span>
+          </div>
+          <ul class="list-disc pl-5 text-sm text-slate-700 space-y-2 leading-relaxed">
+            <li><strong>Protejo sistemas críticos de governo</strong> com milhares de acessos diários: hardening de servidores GCP, configuração de buckets com políticas de acesso granular e criptografia em trânsito/repouso.</li>
+            <li><strong>Desenvolvo plugins WordPress customizados</strong> com validação rigorosa de input, sanitização de output e proteção contra SQL injection e XSS — reduzindo superfície de ataque em <strong>40%</strong> em auditoria interna.</li>
+            <li><strong>Conduzo análise de conformidade LGPD</strong> mapeando fluxos de dados pessoais, implementando anonimização e garantindo traceabilidade de acessos para órgãos auditores.</li>
+            <li><strong>Mitigo falhas de segurança ativamente:</strong> identifico vulnerabilidades em código legado, aplico patches críticos e documento procedimentos de resposta a incidentes.</li>
+            <li><strong>Manipulo e otimizo bancos de dados</strong> (PostgreSQL, MySQL) em ambiente governamental: tuning de queries, indexação estratégica e backups automatizados com políticas de retenção compliance.</li>
+          </ul>
+        </div>
+
+        <!-- MAGNASISTEMAS -->
+        <div class="mb-8 pb-8 border-b border-dashed border-slate-200">
+          <div class="flex flex-wrap justify-between items-baseline gap-2 mb-3">
+            <div>
+              <h3 class="text-base font-bold text-slate-900">Arquiteto de Sistemas & Cloud</h3>
+              <span class="text-emerald-700 font-semibold text-sm">MagnaSistemas</span>
+            </div>
+            <span class="text-xs font-medium bg-slate-100 text-slate-600 px-3 py-1 rounded-full whitespace-nowrap">2015 — 2024 (9 anos)</span>
+          </div>
+          <ul class="list-disc pl-5 text-sm text-slate-700 space-y-2 leading-relaxed">
+            <li><strong>Migrei infraestrutura legada para Google Cloud Platform</strong>, reduzindo custos operacionais em <strong>18%</strong> e elevando disponibilidade para <strong>99,95%</strong> com monitoramento e auto-scaling.</li>
+            <li><strong>Construí pipelines CI/CD completos</strong> com GitHub Actions e Docker, transformando deploys manuais semanais em entregas diárias automatizadas e reversíveis em < 5 minutos.</li>
+            <li><strong>Otimizei performance crítica</strong> de APIs REST processando <strong>150.000+ requisições mensais</strong>, reduzindo tempo de resposta de <strong>850ms para 280ms</strong> via caching Redis, CDN e query optimization.</li>
+            <li><strong>Liderei iniciativas de segurança:</strong> apliquei OWASP Top 10, configurei WAF, implementei autenticação multifator e mentorei 5 desenvolvedores em práticas secure-by-default.</li>
+            <li><strong>Trabalhei com sistemas IBM WebSphere</strong> em ambiente enterprise, garantindo alta disponibilidade e integração com legados corporativos.</li>
+          </ul>
+        </div>
+
+        <!-- MAPFRE -->
+        <div class="mb-8 pb-8 border-b border-dashed border-slate-200">
+          <div class="flex flex-wrap justify-between items-baseline gap-2 mb-3">
+            <div>
+              <h3 class="text-base font-bold text-slate-900">Desenvolvedor Backend & Integrações Seguras</h3>
+              <span class="text-emerald-700 font-semibold text-sm">MAPFRE Seguradora / Consórcio BB-MAPFRE</span>
+            </div>
+            <span class="text-xs font-medium bg-slate-100 text-slate-600 px-3 py-1 rounded-full whitespace-nowrap">2010 — 2015 (5 anos)</span>
+          </div>
+          <ul class="list-disc pl-5 text-sm text-slate-700 space-y-2 leading-relaxed">
+            <li><strong>Arquitetei integrações seguras entre Oracle e SQL Server</strong> para fluxos de transações e relatórios gerenciais em ambiente regulado pelo setor financeiro, manipulando dados sensíveis com total conformidade.</li>
+            <li><strong>Mantive intranet corporativa crítica</strong> acessada por <strong>10.000+ funcionários diariamente</strong>, aplicando padrões OWASP, Content Security Policy e revisão de código com foco em segurança.</li>
+            <li><strong>Automatizei rotinas operacionais com Python</strong>, reduzindo trabalho manual em <strong>15 horas semanais</strong> e eliminando erros humanos em processos de reconciliação de dados.</li>
+            <li><strong>Implementei versionamento Git/SVN</strong> em ambiente corporativo controlado, estabelecendo baseline de governança de código que posteriormente facilitou auditorias regulatórias.</li>
+          </ul>
+        </div>
+
+        <!-- MERCADO LIVRE -->
+        <div class="mb-8 pb-8 border-b border-dashed border-slate-200">
+          <div class="flex flex-wrap justify-between items-baseline gap-2 mb-3">
             <div>
               <h3 class="text-base font-bold text-slate-900">Desenvolvedor Full-Stack</h3>
-              <span class="text-accent font-semibold text-sm">Almaviva Solutions</span>
+              <span class="text-emerald-700 font-semibold text-sm">MercadoLivre.com</span>
             </div>
-            <span class="text-xs font-medium bg-slate-100 text-slate-600 px-3 py-1 rounded-full whitespace-nowrap">Abril 2024 - Presente</span>
+            <span class="text-xs font-medium bg-slate-100 text-slate-600 px-3 py-1 rounded-full whitespace-nowrap">2000 — 2001</span>
           </div>
-          <ul class="list-disc pl-5 text-sm text-slate-700 space-y-1.5 leading-relaxed">
-            <li>Lidero a modernizacao de sistemas legados migrando infraestrutura para Google Cloud Platform, reduzindo custos operacionais em <strong>18%</strong> e elevando a disponibilidade do sistema para <strong>99,95%</strong> de uptime.</li>
-            <li>Arquitetei e implementei pipelines de CI/CD completos com GitHub Actions e Docker, reduzindo o tempo de deploy de semanas para entregas diarias em producao.</li>
-            <li>Otimizei a performance de aplicacoes criticas com tecnicas de lazy loading, code splitting e caching inteligente em APIs, reduzindo o tempo de carregamento em <strong>32%</strong>.</li>
-            <li>Desenhei APIs REST robustas e seguras que processam mais de <strong>150 mil requisicoes mensais</strong>, garantindo escalabilidade e conformidade com padroes enterprise.</li>
+          <ul class="list-disc pl-5 text-sm text-slate-700 space-y-2 leading-relaxed">
+            <li><strong>Atuei em front-end e backend</strong> em uma das maiores plataformas de e-commerce da América Latina em fase de crescimento acelerado.</li>
+            <li><strong>Resolvia tickets críticos</strong> de disponibilidade e performance, tendo contato direto com operações em escala desde os primeiros anos da internet comercial no Brasil.</li>
+            <li><strong>Realizava manutenção e atualizações no website</strong> da plataforma, consolidando visão de negócio digital e a importância de uptime e observabilidade.</li>
           </ul>
         </div>
 
-        <div class="mb-6 pb-6 border-b border-dashed border-slate-200 last:border-0 last:mb-0 last:pb-0">
-          <div class="flex flex-wrap justify-between items-baseline gap-2 mb-2">
+        <!-- FIPECAFI -->
+        <div class="mb-8 pb-8 border-b border-dashed border-slate-200">
+          <div class="flex flex-wrap justify-between items-baseline gap-2 mb-3">
             <div>
-              <h3 class="text-base font-bold text-slate-900">Desenvolvedor Full-Stack</h3>
-              <span class="text-accent font-semibold text-sm">MagnaSistemas</span>
+              <h3 class="text-base font-bold text-slate-900">Desenvolvedor Full-Stack .NET</h3>
+              <span class="text-emerald-700 font-semibold text-sm">Fipecafi — Cursos de Especialização</span>
             </div>
-            <span class="text-xs font-medium bg-slate-100 text-slate-600 px-3 py-1 rounded-full whitespace-nowrap">2015 - 2024 - 9 anos</span>
+            <span class="text-xs font-medium bg-slate-100 text-slate-600 px-3 py-1 rounded-full whitespace-nowrap">2008 — 2009</span>
           </div>
-          <ul class="list-disc pl-5 text-sm text-slate-700 space-y-1.5 leading-relaxed">
-            <li>Responsavel tecnico por portais corporativos de alta audiencia que atingiram <strong>2 milhoes de usuarios mensais</strong>, utilizando React, PHP e PostgreSQL em arquitetura distribuida.</li>
-            <li>Reduzi o tempo de resposta da aplicacao de <strong>850ms para 280ms</strong> em media implementando caching com Redis, otimizacao de queries e distribuicao via CDN.</li>
-            <li>Liderei iniciativas de seguranca aplicando padroes OWASP, Content Security Policy e revisoes de codigo, alem de mentorear uma equipe de 5 desenvolvedores juniores.</li>
-            <li>Projetei e mantive infraestrutura hibrida AWS/GCP provisionada como codigo com Terraform, garantindo consistencia entre ambientes e recuperacao rapida em cenarios de desastre.</li>
+          <ul class="list-disc pl-5 text-sm text-slate-700 space-y-2 leading-relaxed">
+            <li><strong>Responsável por toda a operação digital</strong> da instituição: websites, ferramentas administrativas internas e atualização de conteúdo.</li>
+            <li><strong>Desenvolvi sistemas web em .NET</strong> para automação de matrículas e emissão de certificados, eliminando gargalos operacionais.</li>
+            <li><strong>Criei logomarcas e identidades visuais</strong> para novos cursos, trabalhando do design ao deploy.</li>
           </ul>
         </div>
 
-        <div class="mb-6 pb-6 border-b border-dashed border-slate-200 last:border-0 last:mb-0 last:pb-0">
-          <div class="flex flex-wrap justify-between items-baseline gap-2 mb-2">
+        <!-- SOLUTTIA -->
+        <div class="mb-8 pb-8 border-b border-dashed border-slate-200">
+          <div class="flex flex-wrap justify-between items-baseline gap-2 mb-3">
             <div>
-              <h3 class="text-base font-bold text-slate-900">Desenvolvedor Full-Stack</h3>
-              <span class="text-accent font-semibold text-sm">Banco do Brasil / Mapfre (Consorcio BB-MAPFRE Seguradora)</span>
+              <h3 class="text-base font-bold text-slate-900">Desenvolvedor Full-Stack PHP</h3>
+              <span class="text-emerald-700 font-semibold text-sm">Soluttia</span>
             </div>
-            <span class="text-xs font-medium bg-slate-100 text-slate-600 px-3 py-1 rounded-full whitespace-nowrap">2010 - 2015 - 5 anos</span>
+            <span class="text-xs font-medium bg-slate-100 text-slate-600 px-3 py-1 rounded-full whitespace-nowrap">2007 — 2008</span>
           </div>
-          <ul class="list-disc pl-5 text-sm text-slate-700 space-y-1.5 leading-relaxed">
-            <li>Responsavel tecnico pela intranet corporativa utilizada por mais de <strong>10 mil funcionarios</strong> diariamente, desenvolvendo interfaces com JavaScript, jQuery e PHP sob rigorosos padroes de compliance do setor financeiro.</li>
-            <li>Construi integracoes seguras entre bancos de dados Oracle e SQL Server para fluxos de transacoes e relatorios gerenciais, manipulando dados sensiveis com total conformidade regulatória.</li>
-            <li>Implementei versionamento com Git e SVN em ambiente corporativo controlado, alem de automatizar rotinas operacionais com scripts Python que reduziram trabalho manual em aproximadamente <strong>15 horas semanais</strong>.</li>
-            <li>Desenvolvi campanhas de e-mail marketing e conteudo multimidia institucional para comunicacao interna e externa da seguradora.</li>
+          <ul class="list-disc pl-5 text-sm text-slate-700 space-y-2 leading-relaxed">
+            <li><strong>Desenvolvi websites dinâmicos com PHP</strong> e ferramentas administrativas que permitiam aos clientes gerenciarem conteúdo sem dependência técnica.</li>
+            <li><strong>Criei peças publicitárias digitais</strong>, banners interativos e hot-sites para clientes de diversos segmentos.</li>
+            <li><strong>Colaborei em interfaces para serious games educacionais</strong>, unindo programação e design de interação.</li>
           </ul>
         </div>
 
-        <div class="mb-6 pb-6 border-b border-dashed border-slate-200 last:border-0 last:mb-0 last:pb-0">
-          <div class="flex flex-wrap justify-between items-baseline gap-2 mb-2">
+        <!-- KYU -->
+        <div class="mb-8 pb-8 border-b border-dashed border-slate-200">
+          <div class="flex flex-wrap justify-between items-baseline gap-2 mb-3">
             <div>
-              <h3 class="text-base font-bold text-slate-900">Desenvolvedor Front-End</h3>
-              <span class="text-accent font-semibold text-sm">Fipecafi - Cursos de Especializacao</span>
+              <h3 class="text-base font-bold text-slate-900">Desenvolvedor Front-End & PHP</h3>
+              <span class="text-emerald-700 font-semibold text-sm">KYU — Desenvolvimento Web</span>
             </div>
-            <span class="text-xs font-medium bg-slate-100 text-slate-600 px-3 py-1 rounded-full whitespace-nowrap">2008 - 2009</span>
+            <span class="text-xs font-medium bg-slate-100 text-slate-600 px-3 py-1 rounded-full whitespace-nowrap">2005 — 2006</span>
           </div>
-          <ul class="list-disc pl-5 text-sm text-slate-700 space-y-1.5 leading-relaxed">
-            <li>Profissional responsavel por toda a operacao digital da instituicao: criacao e manutencao de websites, desenvolvimento de pecas publicitarias, ferramentas administrativas internas e atualizacao de conteudo.</li>
-            <li>Desenvolvi logomarcas e identidades visuais para novos cursos e programas de especializacao, trabalhando ponta a ponta do design ao deploy.</li>
-            <li>Automatizei processos de matricula e emissao de certificados com sistemas web customizados em PHP/MySQL, eliminando gargalos operacionais.</li>
+          <ul class="list-disc pl-5 text-sm text-slate-700 space-y-2 leading-relaxed">
+            <li><strong>Desenvolvi websites completos com PHP</strong> e sistemas de administração proprietários que permitiam aos clientes atualizarem conteúdo de forma autônoma.</li>
+            <li><strong>Manutenção contínua de portfolio de clientes</strong>, garantindo disponibilidade de websites institucionais e comerciais.</li>
           </ul>
         </div>
 
-        <div class="mb-6 pb-6 border-b border-dashed border-slate-200 last:border-0 last:mb-0 last:pb-0">
-          <div class="flex flex-wrap justify-between items-baseline gap-2 mb-2">
+        <!-- HIS -->
+        <div class="mb-8 pb-8 border-b border-dashed border-slate-200">
+          <div class="flex flex-wrap justify-between items-baseline gap-2 mb-3">
             <div>
-              <h3 class="text-base font-bold text-slate-900">Web Master</h3>
-              <span class="text-accent font-semibold text-sm">Soluttia - Desenvolvedor Front-End</span>
+              <h3 class="text-base font-bold text-slate-900">Desenvolvedor Front-End & PHP</h3>
+              <span class="text-emerald-700 font-semibold text-sm">HIS</span>
             </div>
-            <span class="text-xs font-medium bg-slate-100 text-slate-600 px-3 py-1 rounded-full whitespace-nowrap">2007 - 2008</span>
+            <span class="text-xs font-medium bg-slate-100 text-slate-600 px-3 py-1 rounded-full whitespace-nowrap">2004 — 2005</span>
           </div>
-          <ul class="list-disc pl-5 text-sm text-slate-700 space-y-1.5 leading-relaxed">
-            <li>Profissional multifuncional criando pecas publicitarias digitais, banners interativos e hot-sites para clientes de diversos segmentos.</li>
-            <li>Desenvolvi e mantive websites dinamicos com ferramentas administrativas que permitiam aos clientes gerenciarem seu proprio conteudo sem dependencia tecnica.</li>
-            <li>Colaborei no desenvolvimento de interfaces para serious games educacionais, unindo programacao e design de interacao.</li>
+          <ul class="list-disc pl-5 text-sm text-slate-700 space-y-2 leading-relaxed">
+            <li><strong>Criação de layouts e programação front-end</strong> para websites e hot-sites institucionais em HTML, CSS, JavaScript e PHP.</li>
+            <li><strong>Gestão de múltiplos projetos simultâneos</strong>, consolidando habilidades de entrega sob prazos apertados.</li>
           </ul>
         </div>
 
-        <div class="mb-6 pb-6 border-b border-dashed border-slate-200 last:border-0 last:mb-0 last:pb-0">
-          <div class="flex flex-wrap justify-between items-baseline gap-2 mb-2">
-            <div>
-              <h3 class="text-base font-bold text-slate-900">Desenvolvedor Front-End</h3>
-              <span class="text-accent font-semibold text-sm">KYU - Desenvolvimento de Web Sites e Solucoes Visuais</span>
-            </div>
-            <span class="text-xs font-medium bg-slate-100 text-slate-600 px-3 py-1 rounded-full whitespace-nowrap">2005 - 2006</span>
-          </div>
-          <ul class="list-disc pl-5 text-sm text-slate-700 space-y-1.5 leading-relaxed">
-            <li>Desenvolvi websites completos com sistemas de administracao proprietarios que permitiam aos clientes atualizarem conteudo de forma autonoma - conceito precursor aos CMS modernos.</li>
-            <li>Responsavel pela manutencao continua de portfolio de clientes, garantindo disponibilidade e atualizacoes regulares de websites institucionais e comerciais.</li>
-          </ul>
-        </div>
-
-        <div class="mb-6 pb-6 border-b border-dashed border-slate-200 last:border-0 last:mb-0 last:pb-0">
-          <div class="flex flex-wrap justify-between items-baseline gap-2 mb-2">
-            <div>
-              <h3 class="text-base font-bold text-slate-900">Web Designer</h3>
-              <span class="text-accent font-semibold text-sm">HIS - Desenvolvedor Front-End</span>
-            </div>
-            <span class="text-xs font-medium bg-slate-100 text-slate-600 px-3 py-1 rounded-full whitespace-nowrap">2004 - 2005</span>
-          </div>
-          <ul class="list-disc pl-5 text-sm text-slate-700 space-y-1.5 leading-relaxed">
-            <li>Criacao de layouts e programacao front-end para websites e hot-sites institucionais, atuando desde a concepcao visual ate a implementacao em HTML, CSS e JavaScript.</li>
-            <li>Desenvolvi projetos para multiplos clientes simultaneos, consolidando habilidades de gestao de tempo e entrega sob prazos apertados.</li>
-          </ul>
-        </div>
-
-        <div class="mb-6 pb-6 border-b border-dashed border-slate-200 last:border-0 last:mb-0 last:pb-0">
-          <div class="flex flex-wrap justify-between items-baseline gap-2 mb-2">
-            <div>
-              <h3 class="text-base font-bold text-slate-900">Desenvolvedor Front-End</h3>
-              <span class="text-accent font-semibold text-sm">MercadoLivre.com</span>
-            </div>
-            <span class="text-xs font-medium bg-slate-100 text-slate-600 px-3 py-1 rounded-full whitespace-nowrap">2000 - 2001</span>
-          </div>
-          <ul class="list-disc pl-5 text-sm text-slate-700 space-y-1.5 leading-relaxed">
-            <li>Atuei no front de suporte tecnico de uma das maiores plataformas de e-commerce da America Latina em sua fase de crescimento acelerado, resolvendo tickets de usuarios e vendedores.</li>
-            <li>Realizava manutencao e atualizacoes no website da plataforma, tendo contato direto com operacoes de e-commerce em escala desde os primeiros anos da internet comercial no Brasil.</li>
-            <li>Experiencia formativa que me deu visao de negocio digital, operacao em escala e a importancia da performance e disponibilidade de sistemas.</li>
-          </ul>
-        </div>
-
+        <!-- AAAEP/USP -->
         <div class="last:border-0">
-          <div class="flex flex-wrap justify-between items-baseline gap-2 mb-2">
+          <div class="flex flex-wrap justify-between items-baseline gap-2 mb-3">
             <div>
-              <h3 class="text-base font-bold text-slate-900">Estagiario desenvolvimento Web</h3>
-              <span class="text-accent font-semibold text-sm">AAAEP - Associacao dos Antigos Alunos da Escola Politecnica (USP)</span>
+              <h3 class="text-base font-bold text-slate-900">Estagiário em Desenvolvimento Web</h3>
+              <span class="text-emerald-700 font-semibold text-sm">AAAEP — Associacao dos Antigos Alunos da Escola Politécnica (USP)</span>
             </div>
-            <span class="text-xs font-medium bg-slate-100 text-slate-600 px-3 py-1 rounded-full whitespace-nowrap">1999 - 2000</span>
+            <span class="text-xs font-medium bg-slate-100 text-slate-600 px-3 py-1 rounded-full whitespace-nowrap">1999 — 2000</span>
           </div>
-          <ul class="list-disc pl-5 text-sm text-slate-700 space-y-1.5 leading-relaxed">
-            <li>Primeira experiencia profissional na area digital, criando e mantendo o website da associacao vinculada a Universidade de Sao Paulo (USP).</li>
-            <li>Apoiei na criacao de material grafico e conteudo digital para eventos academicos, estabelecendo as bases da minha carreira em desenvolvimento web.</li>
+          <ul class="list-disc pl-5 text-sm text-slate-700 space-y-2 leading-relaxed">
+            <li><strong>Primeira experiência profissional</strong> criando e mantendo o website da associação vinculada à Universidade de São Paulo (USP).</li>
+            <li><strong>Apoio na criação de material gráfico e conteúdo digital</strong> para eventos acadêmicos.</li>
           </ul>
         </div>
       </section>
 
+      <!-- PROJECTS -->
       <section class="bg-white rounded-lg shadow-sm p-6 md:p-8 border border-slate-200 print-card page-break">
-        <h2 class="text-lg font-bold text-slate-900 mb-5 pb-2 border-b-2 border-accent/20 uppercase tracking-wide">Formacao Academica</h2>
+        <h2 class="text-lg font-bold text-security mb-5 pb-2 border-b-2 border-emerald-500/30 uppercase tracking-wide">Projetos de Destaque</h2>
+        <div class="grid sm:grid-cols-2 gap-4">
+          <div class="bg-slate-50 rounded-lg p-4 border border-slate-200">
+            <h4 class="font-semibold text-slate-900 text-sm mb-1 flex items-center gap-2">
+              <span class="w-2 h-2 bg-rose-500 rounded-full"></span>
+              Hardening de Infraestrutura Governamental
+            </h4>
+            <p class="text-xs text-slate-600 leading-relaxed">
+              Configurei servidores GCP com políticas de IAM restritivas, buckets criptografados e monitoramento de acesso 
+              para sistema crítico do governo paulista. Resultado: <strong>zero incidentes de vazamento</strong> em 18 meses de operação.
+            </p>
+          </div>
+          <div class="bg-slate-50 rounded-lg p-4 border border-slate-200">
+            <h4 class="font-semibold text-slate-900 text-sm mb-1 flex items-center gap-2">
+              <span class="w-2 h-2 bg-emerald-500 rounded-full"></span>
+              Pipeline CI/CD de Deploy Diário
+            </h4>
+            <p class="text-xs text-slate-600 leading-relaxed">
+              Implementei automação completa com GitHub Actions e Docker em ambiente enterprise. 
+              Reduzi tempo de deploy de <strong>semanas para minutos</strong> com rollback automático e gates de segurança.
+            </p>
+          </div>
+          <div class="bg-slate-50 rounded-lg p-4 border border-slate-200">
+            <h4 class="font-semibold text-slate-900 text-sm mb-1 flex items-center gap-2">
+              <span class="w-2 h-2 bg-sky-500 rounded-full"></span>
+              Migração de 2 Milhões de Usuários para Cloud
+            </h4>
+            <p class="text-xs text-slate-600 leading-relaxed">
+              Liderei migração de portal corporativo de alta audiência para GCP. Arquitetura com auto-scaling, Redis e CDN. 
+              Reduzi tempo de resposta em <strong>67%</strong> (850ms → 280ms) e custos em 18%.
+            </p>
+          </div>
+          <div class="bg-slate-50 rounded-lg p-4 border border-slate-200">
+            <h4 class="font-semibold text-slate-900 text-sm mb-1 flex items-center gap-2">
+              <span class="w-2 h-2 bg-amber-500 rounded-full"></span>
+              Conformidade LGPD em Sistema Legado
+            </h4>
+            <p class="text-xs text-slate-600 leading-relaxed">
+              Mapeei fluxos de dados pessoais em aplicação PHP/Oracle de 10 anos, implementei anonimização, 
+              consentimento granular e logs de auditoria. <strong>Aprovado em auditoria externa sem ressalvas.</strong>
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- EDUCATION -->
+      <section class="bg-white rounded-lg shadow-sm p-6 md:p-8 border border-slate-200 print-card page-break">
+        <h2 class="text-lg font-bold text-security mb-5 pb-2 border-b-2 border-emerald-500/30 uppercase tracking-wide">Formação Acadêmica</h2>
         <div class="space-y-4">
           <div class="flex flex-wrap justify-between items-baseline gap-2">
             <div>
-              <p class="font-semibold text-slate-900">Bacharelado em Sistemas de Informacao</p>
-              <p class="text-sm text-slate-500">Centro Universitario FMU - FIAM-FAAM</p>
+              <p class="font-semibold text-slate-900">Bacharelado em Sistemas de Informação</p>
+              <p class="text-sm text-slate-500">Centro Universitário FMU — FIAM-FAAM</p>
             </div>
           </div>
           <div class="flex flex-wrap justify-between items-baseline gap-2">
             <div>
-              <p class="font-semibold text-slate-900">Tecnologo em Criacao e Desenvolvimento de Websites</p>
+              <p class="font-semibold text-slate-900">Tecnólogo em Criação e Desenvolvimento de Websites</p>
               <p class="text-sm text-slate-500">Universidade Anhembi Morumbi</p>
             </div>
           </div>
         </div>
       </section>
 
-      <section class="bg-white rounded-lg shadow-sm p-6 md:p-8 border border-slate-200 print-card page-break">
-        <h2 class="text-lg font-bold text-slate-900 mb-5 pb-2 border-b-2 border-accent/20 uppercase tracking-wide">Projetos de Destaque</h2>
-        <div class="grid sm:grid-cols-2 gap-4">
-          <div class="bg-slate-50 rounded-lg p-4 border border-slate-100">
-            <h4 class="font-semibold text-slate-900 text-sm mb-1">Migracao de Infraestrutura Legada para GCP</h4>
-            <p class="text-xs text-slate-600 leading-relaxed">Liderei a migracao completa de sistemas on-premise para Google Cloud Platform em ambiente enterprise. Resultado: reducao de 18% nos custos operacionais e disponibilidade de 99,95% com monitoramento e auto-scaling configurados.</p>
-          </div>
-          <div class="bg-slate-50 rounded-lg p-4 border border-slate-100">
-            <h4 class="font-semibold text-slate-900 text-sm mb-1">Plataforma de 2 Milhoes de Usuarios Mensais</h4>
-            <p class="text-xs text-slate-600 leading-relaxed">Atuei como responsavel tecnico por portal corporativo de alta audiencia. Arquitetura React + PHP + PostgreSQL com Redis e CDN, reduzindo tempo de resposta de 850ms para 280ms.</p>
-          </div>
-          <div class="bg-slate-50 rounded-lg p-4 border border-slate-100">
-            <h4 class="font-semibold text-slate-900 text-sm mb-1">Intranet Corporativa para 10 Mil Funcionarios</h4>
-            <p class="text-xs text-slate-600 leading-relaxed">Desenvolvi e mantive a intranet do consorcio Banco do Brasil/Mapfre com integracao entre Oracle e SQL Server, atendendo rigorosos requisitos de seguranca do setor financeiro.</p>
-          </div>
-          <div class="bg-slate-50 rounded-lg p-4 border border-slate-100">
-            <h4 class="font-semibold text-slate-900 text-sm mb-1">Pipeline CI/CD de Deploy Diario</h4>
-            <p class="text-xs text-slate-600 leading-relaxed">Implementei automacao completa de integracao e entrega continua com GitHub Actions e Docker, transformando um processo manual de deploys semanais em entregas diarias seguras e confiaveis.</p>
-          </div>
-        </div>
-      </section>
     </main>
   </div>
 
   <footer class="text-center text-xs text-slate-400 py-6 border-t border-slate-200 no-print">
-    <p class="mb-1">Daniel Angelone - Desenvolvedor Full-Stack</p>
-    <p>daniel.angelone@gmail.com - angelone.cv</p>
+    <p class="mb-1">Daniel Angelone — Backend, Cloud & Segurança</p>
+    <p>daniel.angelone@gmail.com</p>
   </footer>
 
 </body>
