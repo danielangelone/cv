@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Daniel Angelone – Backend, Cloud & Security</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: { sans: ["Inter", "system-ui"], mono: ["JetBrains Mono", "monospace"] },
+          colors: { 
+            security: "#0f172a",
+            accent: "#059669",
+            cloud: "#0369a1"
+          }
+        }
+      }
+    }
+  </script>
+  <style>
+    @media print {
+      body { background: white !important; }
+      .no-print { display: none !important; }
+      .print-card { box-shadow: none !important; border: 1px solid #e2e8f0 !important; }
+      .page-break { page-break-inside: avoid; }
+    }
+  </style>
+  <base target="_blank">
+<base target="_blank">
+</head>
+<body class="bg-slate-50 text-slate-800 antialiased">
+
+  <!-- HEADER -->
+  <header class="bg-security text-white py-10 px-4 print-card">
+    <div class="max-w-5xl mx-auto">
+      <div class="flex flex-col md:flex-row md:items-center md:justify-between gap-6">
+        <div class="flex-1">
+          <h1 class="text-3xl md:text-4xl font-extrabold tracking-tight mb-2">Daniel Angelone</h1>
+          <p class="text-lg md:text-xl text-emerald-400 font-semibold tracking-wide uppercase mb-4">Backend, Cloud & Security</p>
+          <p class="text-sm text-slate-300 leading-relaxed max-w-2xl">
+            Developer with <strong>20+ years of experience</strong> building systems that need to work. 
+            Currently focused on robust backend, cloud infrastructure, and data protection. 
+            <span class="text-emerald-400 font-semibold">GDPR + secure code + cloud</span> in my daily work.
+          </p>
+        </div>
+        <div class="bg-white/10 backdrop-blur rounded-lg p-5 border border-white/20 min-w-[260px]">
+          <h3 class="text-xs font-bold uppercase tracking-widest text-emerald-400 mb-3 pb-2 border-b border-white/20">Contact</h3>
+          <ul class="space-y-2.5 text-sm text-slate-200">
+            <li class="flex items-center gap-2.5">
+              <span class="w-5 h-5 flex items-center justify-center text-emerald-400 text-xs font-bold bg-emerald-400/20 rounded">@</span>
+              <a href="mailto:daniel.angelone@gmail.com" class="hover:text-emerald-400 transition-colors">daniel.angelone@gmail.com</a>
+            </li>
+            <li class="flex items-center gap-2.5">
+              <span class="w-5 h-5 flex items-center justify-center text-emerald-400 text-xs font-bold bg-emerald-400/20 rounded">in</span>
+              <a href="https://www.linkedin.com/in/danielangelone/" class="hover:text-emerald-400 transition-colors">linkedin.com/in/danielangelone</a>
+            </li>
+            <li class="flex items-center gap-2.5">
+              <span class="w-5 h-5 flex items-center justify-center text-emerald-400 text-xs font-bold bg-emerald-400/20 rounded">gh</span>
+              <a href="https://github.com/danielangelone" class="hover:text-emerald-400 transition-colors">github.com/danielangelone</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <div class="max-w-5xl mx-auto px-4 py-8 grid grid-cols-1 md:grid-cols-[280px_1fr] gap-6">
+
+    <!-- SIDEBAR -->
+    <aside class="space-y-6">
+
+      <!-- CORE STACK -->
+      <section class="bg-white rounded-lg shadow-sm p-5 border border-slate-200 print-card page-break">
+        <h2 class="text-xs font-bold uppercase tracking-widest text-security mb-4 pb-2 border-b border-slate-200">Core Stack</h2>
+        <div class="space-y-4">
+          <div>
+            <h3 class="text-xs font-semibold text-emerald-700 uppercase tracking-wider mb-2">Backend & APIs</h3>
+            <div class="flex flex-wrap gap-1.5">
+              <span class="inline-block bg-emerald-50 text-emerald-800 text-xs font-semibold px-2 py-1 rounded border border-emerald-200">Node.js</span>
+              <span class="inline-block bg-emerald-50 text-emerald-800 text-xs font-semibold px-2 py-1 rounded border border-emerald-200">PHP / Laravel</span>
+              <span class="inline-block bg-emerald-50 text-emerald-800 text-xs font-semibold px-2 py-1 rounded border border-emerald-200">Python / FastAPI</span>
+              <span class="inline-block bg-emerald-50 text-emerald-800 text-xs font-semibold px-2 py-1 rounded border border-emerald-200">.NET</span>
+              <span class="inline-block bg-emerald-50 text-emerald-800 text-xs font-semibold px-2 py-1 rounded border border-emerald-200">REST / GraphQL</span>
+              <span class="inline-block bg-emerald-50 text-emerald-800 text-xs font-semibold px-2 py-1 rounded border border-emerald-200">WordPress (Plugins/Security)</span>
+            </div>
+          </div>
+          <div>
+            <h3 class="text-xs font-semibold text-sky-700 uppercase tracking-wider mb-2">Cloud & Infrastructure</h3>
+            <div class="flex flex-wrap gap-1.5">
+              <span class="inline-block bg-sky-50 text-sky-800 text-xs font-semibold px-2 py-1 rounded border border-sky-200">Google Cloud (GCP)</span>
+              <span class="inline-block bg-sky-50 text-sky-800 text-xs font-semibold px-2 py-1 rounded border border-sky-200">AWS</span>
+              <span class="inline-block bg-sky-50 text-sky-800 text-xs font-semibold px-2 py-1 rounded border border-sky-200">Docker</span>
+              <span class="inline-block bg-sky-50 text-sky-800 text-xs font-semibold px-2 py-1 rounded border border-sky-200">CI/CD</span>
+              <span class="inline-block bg-sky-50 text-sky-800 text-xs font-semibold px-2 py-1 rounded border border-sky-200">Terraform</span>
+              <span class="inline-block bg-sky-50 text-sky-800 text-xs font-semibold px-2 py-1 rounded border border-sky-200">Buckets / Storage</span>
+            </div>
+          </div>
+          <div>
+            <h3 class="text-xs font-semibold text-rose-700 uppercase tracking-wider mb-2">Security & Compliance</h3>
+            <div class="flex flex-wrap gap-1.5">
+              <span class="inline-block bg-rose-50 text-rose-800 text-xs font-semibold px-2 py-1 rounded border border-rose-200">GDPR / LGPD</span>
+              <span class="inline-block bg-rose-50 text-rose-800 text-xs font-semibold px-2 py-1 rounded border border-rose-200">OWASP</span>
+              <span class="inline-block bg-rose-50 text-rose-800 text-xs font-semibold px-2 py-1 rounded border border-rose-200">Server Hardening</span>
+              <span class="inline-block bg-rose-50 text-rose-800 text-xs font-semibold px-2 py-1 rounded border border-rose-200">CSP / Headers</span>
+              <span class="inline-block bg-rose-50 text-rose-800 text-xs font-semibold px-2 py-1 rounded border border-rose-200">Basic Pentesting</span>
+            </div>
+          </div>
+          <div>
+            <h3 class="text-xs font-semibold text-slate-500 uppercase tracking-wider mb-2">Databases</h3>
+            <div class="flex flex-wrap gap-1.5">
+              <span class="inline-block bg-slate-100 text-slate-700 text-xs font-medium px-2 py-1 rounded border border-slate-200">PostgreSQL</span>
+              <span class="inline-block bg-slate-100 text-slate-700 text-xs font-medium px-2 py-1 rounded border border-slate-200">MySQL / MariaDB</span>
+              <span class="inline-block bg-slate-100 text-slate-700 text-xs font-medium px-2 py-1 rounded border border-slate-200">Oracle</span>
+              <span class="inline-block bg-slate-100 text-slate-700 text-xs font-medium px-2 py-1 rounded border border-slate-200">SQL Server</span>
+              <span class="inline-block bg-slate-100 text-slate-700 text-xs font-medium px-2 py-1 rounded border border-slate-200">MongoDB</span>
+              <span class="inline-block bg-slate-100 text-slate-700 text-xs font-medium px-2 py-1 rounded border border-slate-200">Redis</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- CERTIFICATIONS -->
+      <section class="bg-white rounded-lg shadow-sm p-5 border border-slate-200 print-card page-break">
+        <h2 class="text-xs font-bold uppercase tracking-widest text-security mb-4 pb-2 border-b border-slate-200">Certifications in Progress</h2>
+        <ul class="text-sm space-y-2 text-slate-700">
+          <li class="flex items-start gap-2"><span class="text-emerald-600 mt-0.5">▸</span><span>Cloud Architecture (GCP)</span></li>
+          <li class="flex items-start gap-2"><span class="text-emerald-600 mt-0.5">▸</span><span>DevSecOps</span></li>
+          <li class="flex items-start gap-2"><span class="text-emerald-600 mt-0.5">▸</span><span>Terraform & Infrastructure as Code</span></li>
+          <li class="flex items-start gap-2"><span class="text-emerald-600 mt-0.5">▸</span><span>GDPR & Data Governance</span></li>
+        </ul>
+      </section>
+
+      <!-- LANGUAGES -->
+      <section class="bg-white rounded-lg shadow-sm p-5 border border-slate-200 print-card page-break">
+        <h2 class="text-xs font-bold uppercase tracking-widest text-security mb-4 pb-2 border-b border-slate-200">Languages</h2>
+        <ul class="text-sm space-y-3 text-slate-700">
+          <li class="flex justify-between items-center">
+            <span class="font-semibold">Portuguese</span>
+            <span class="text-xs font-medium bg-emerald-100 text-emerald-800 px-2.5 py-1 rounded">Native</span>
+          </li>
+          <li class="flex justify-between items-center">
+            <span class="font-semibold">English</span>
+            <span class="text-xs font-medium bg-sky-100 text-sky-800 px-2.5 py-1 rounded">C1 — Advanced</span>
+          </li>
+        </ul>
+      </section>
+    </aside>
+
+    <!-- MAIN CONTENT -->
+    <main class="space-y-6">
+
+      <!-- EXPERIENCE -->
+      <section class="bg-white rounded-lg shadow-sm p-6 md:p-8 border border-slate-200 print-card page-break">
+        <h2 class="text-lg font-bold text-security mb-5 pb-2 border-b-2 border-emerald-500/30 uppercase tracking-wide">Professional Experience</h2>
+
+        <!-- PRODESP -->
+        <div class="mb-8 pb-8 border-b border-dashed border-slate-200">
+          <div class="flex flex-wrap justify-between items-baseline gap-2 mb-3">
+            <div>
+              <h3 class="text-base font-bold text-slate-900">Backend & Infrastructure Security</h3>
+              <span class="text-emerald-700 font-semibold text-sm">PRODESP — São Paulo State Data Processing Company</span>
+            </div>
+            <span class="text-xs font-medium bg-emerald-100 text-emerald-800 px-3 py-1 rounded-full whitespace-nowrap">2024 — Present</span>
+          </div>
+          <ul class="list-disc pl-5 text-sm text-slate-700 space-y-2 leading-relaxed">
+            <li><strong>Protecting critical government systems</strong> with thousands of daily accesses: GCP server hardening, bucket configuration with granular access policies and encryption at rest/in transit.</li>
+            <li><strong>Developing custom WordPress plugins</strong> with rigorous input validation, output sanitization, and protection against SQL injection and XSS — reducing attack surface by <strong>40%</strong> in internal audit.</li>
+            <li><strong>Conducting GDPR/LGPD compliance analysis</strong> mapping personal data flows, implementing anonymization, and ensuring access traceability for auditing bodies.</li>
+            <li><strong>Actively mitigating security flaws:</strong> identifying vulnerabilities in legacy code, applying critical patches, and documenting incident response procedures.</li>
+            <li><strong>Managing and optimizing databases</strong> (PostgreSQL, MySQL) in government environment: query tuning, strategic indexing, and automated backups with compliant retention policies.</li>
+          </ul>
+        </div>
+
+        <!-- MAGNASISTEMAS -->
+        <div class="mb-8 pb-8 border-b border-dashed border-slate-200">
+          <div class="flex flex-wrap justify-between items-baseline gap-2 mb-3">
+            <div>
+              <h3 class="text-base font-bold text-slate-900">Systems Architect & Cloud</h3>
+              <span class="text-emerald-700 font-semibold text-sm">MagnaSistemas</span>
+            </div>
+            <span class="text-xs font-medium bg-slate-100 text-slate-600 px-3 py-1 rounded-full whitespace-nowrap">2015 — 2024 (9 years)</span>
+          </div>
+          <ul class="list-disc pl-5 text-sm text-slate-700 space-y-2 leading-relaxed">
+            <li><strong>Migrated legacy infrastructure to Google Cloud Platform</strong>, reducing operational costs by <strong>18%</strong> and increasing availability to <strong>99.95%</strong> with monitoring and auto-scaling.</li>
+            <li><strong>Built complete CI/CD pipelines</strong> with GitHub Actions and Docker, transforming weekly manual deploys into daily automated, reversible deliveries in < 5 minutes.</li>
+            <li><strong>Optimized critical API performance</strong> processing <strong>150,000+ monthly requests</strong>, reducing response time from <strong>850ms to 280ms</strong> via Redis caching, CDN, and query optimization.</li>
+            <li><strong>Led security initiatives:</strong> applied OWASP Top 10, configured WAF, implemented multi-factor authentication, and mentored 5 developers in secure-by-default practices.</li>
+            <li><strong>Worked with IBM WebSphere systems</strong> in enterprise environment, ensuring high availability and integration with corporate legacy systems.</li>
+          </ul>
+        </div>
+
+        <!-- MAPFRE -->
+        <div class="mb-8 pb-8 border-b border-dashed border-slate-200">
+          <div class="flex flex-wrap justify-between items-baseline gap-2 mb-3">
+            <div>
+              <h3 class="text-base font-bold text-slate-900">Backend Developer & Secure Integrations</h3>
+              <span class="text-emerald-700 font-semibold text-sm">MAPFRE Insurance / BB-MAPFRE Consortium</span>
+            </div>
+            <span class="text-xs font-medium bg-slate-100 text-slate-600 px-3 py-1 rounded-full whitespace-nowrap">2010 — 2015 (5 years)</span>
+          </div>
+          <ul class="list-disc pl-5 text-sm text-slate-700 space-y-2 leading-relaxed">
+            <li><strong>Architected secure integrations between Oracle and SQL Server</strong> for transaction flows and management reports in financial sector regulated environment, handling sensitive data with full compliance.</li>
+            <li><strong>Maintained critical corporate intranet</strong> accessed by <strong>10,000+ employees daily</strong>, applying OWASP standards, Content Security Policy, and security-focused code review.</li>
+            <li><strong>Automated operational routines with Python</strong>, reducing manual work by <strong>15 hours weekly</strong> and eliminating human errors in data reconciliation processes.</li>
+            <li><strong>Implemented Git/SVN versioning</strong> in controlled corporate environment, establishing code governance baseline that later facilitated regulatory audits.</li>
+          </ul>
+        </div>
+
+        <!-- MERCADO LIVRE -->
+        <div class="mb-8 pb-8 border-b border-dashed border-slate-200">
+          <div class="flex flex-wrap justify-between items-baseline gap-2 mb-3">
+            <div>
+              <h3 class="text-base font-bold text-slate-900">Full-Stack Developer</h3>
+              <span class="text-emerald-700 font-semibold text-sm">MercadoLivre.com</span>
+            </div>
+            <span class="text-xs font-medium bg-slate-100 text-slate-600 px-3 py-1 rounded-full whitespace-nowrap">2000 — 2001</span>
+          </div>
+          <ul class="list-disc pl-5 text-sm text-slate-700 space-y-2 leading-relaxed">
+            <li><strong>Worked on front-end and backend</strong> at one of Latin America's largest e-commerce platforms during rapid growth phase.</li>
+            <li><strong>Resolved critical availability and performance tickets</strong>, gaining direct experience with large-scale operations since the early days of commercial internet in Brazil.</li>
+            <li><strong>Performed maintenance and updates on the platform website</strong>, consolidating business vision and understanding the importance of uptime and observability.</li>
+          </ul>
+        </div>
+
+        <!-- FIPECAFI -->
+        <div class="mb-8 pb-8 border-b border-dashed border-slate-200">
+          <div class="flex flex-wrap justify-between items-baseline gap-2 mb-3">
+            <div>
+              <h3 class="text-base font-bold text-slate-900">Full-Stack .NET Developer</h3>
+              <span class="text-emerald-700 font-semibold text-sm">Fipecafi — Specialization Courses</span>
+            </div>
+            <span class="text-xs font-medium bg-slate-100 text-slate-600 px-3 py-1 rounded-full whitespace-nowrap">2008 — 2009</span>
+          </div>
+          <ul class="list-disc pl-5 text-sm text-slate-700 space-y-2 leading-relaxed">
+            <li><strong>Responsible for all digital operations</strong> of the institution: websites, internal admin tools, and content updates.</li>
+            <li><strong>Developed .NET web systems</strong> for enrollment automation and certificate issuance, eliminating operational bottlenecks.</li>
+            <li><strong>Created logos and visual identities</strong> for new courses, working from design to deployment.</li>
+          </ul>
+        </div>
+
+        <!-- SOLUTTIA -->
+        <div class="mb-8 pb-8 border-b border-dashed border-slate-200">
+          <div class="flex flex-wrap justify-between items-baseline gap-2 mb-3">
+            <div>
+              <h3 class="text-base font-bold text-slate-900">Full-Stack PHP Developer</h3>
+              <span class="text-emerald-700 font-semibold text-sm">Soluttia</span>
+            </div>
+            <span class="text-xs font-medium bg-slate-100 text-slate-600 px-3 py-1 rounded-full whitespace-nowrap">2007 — 2008</span>
+          </div>
+          <ul class="list-disc pl-5 text-sm text-slate-700 space-y-2 leading-relaxed">
+            <li><strong>Developed dynamic websites with PHP</strong> and admin tools allowing clients to manage content without technical dependency.</li>
+            <li><strong>Created digital advertising pieces</strong>, interactive banners, and hot-sites for clients across various segments.</li>
+            <li><strong>Collaborated on educational serious games interfaces</strong>, combining programming and interaction design.</li>
+          </ul>
+        </div>
+
+        <!-- KYU -->
+        <div class="mb-8 pb-8 border-b border-dashed border-slate-200">
+          <div class="flex flex-wrap justify-between items-baseline gap-2 mb-3">
+            <div>
+              <h3 class="text-base font-bold text-slate-900">Front-End & PHP Developer</h3>
+              <span class="text-emerald-700 font-semibold text-sm">KYU — Web Development</span>
+            </div>
+            <span class="text-xs font-medium bg-slate-100 text-slate-600 px-3 py-1 rounded-full whitespace-nowrap">2005 — 2006</span>
+          </div>
+          <ul class="list-disc pl-5 text-sm text-slate-700 space-y-2 leading-relaxed">
+            <li><strong>Developed complete websites with PHP</strong> and proprietary admin systems allowing clients to update content autonomously.</li>
+            <li><strong>Continuous maintenance of client portfolio</strong>, ensuring availability of institutional and commercial websites.</li>
+          </ul>
+        </div>
+
+        <!-- HIS -->
+        <div class="mb-8 pb-8 border-b border-dashed border-slate-200">
+          <div class="flex flex-wrap justify-between items-baseline gap-2 mb-3">
+            <div>
+              <h3 class="text-base font-bold text-slate-900">Front-End & PHP Developer</h3>
+              <span class="text-emerald-700 font-semibold text-sm">HIS</span>
+            </div>
+            <span class="text-xs font-medium bg-slate-100 text-slate-600 px-3 py-1 rounded-full whitespace-nowrap">2004 — 2005</span>
+          </div>
+          <ul class="list-disc pl-5 text-sm text-slate-700 space-y-2 leading-relaxed">
+            <li><strong>Layout creation and front-end programming</strong> for institutional websites and hot-sites in HTML, CSS, JavaScript, and PHP.</li>
+            <li><strong>Managed multiple simultaneous projects</strong>, consolidating delivery skills under tight deadlines.</li>
+          </ul>
+        </div>
+
+        <!-- AAAEP/USP -->
+        <div class="last:border-0">
+          <div class="flex flex-wrap justify-between items-baseline gap-2 mb-3">
+            <div>
+              <h3 class="text-base font-bold text-slate-900">Web Development Intern</h3>
+              <span class="text-emerald-700 font-semibold text-sm">AAAEP — Alumni Association of Polytechnic School (USP)</span>
+            </div>
+            <span class="text-xs font-medium bg-slate-100 text-slate-600 px-3 py-1 rounded-full whitespace-nowrap">1999 — 2000</span>
+          </div>
+          <ul class="list-disc pl-5 text-sm text-slate-700 space-y-2 leading-relaxed">
+            <li><strong>First professional experience</strong> creating and maintaining the website of the association linked to University of São Paulo (USP).</li>
+            <li><strong>Supported creation of graphic material and digital content</strong> for academic events.</li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- PROJECTS -->
+      <section class="bg-white rounded-lg shadow-sm p-6 md:p-8 border border-slate-200 print-card page-break">
+        <h2 class="text-lg font-bold text-security mb-5 pb-2 border-b-2 border-emerald-500/30 uppercase tracking-wide">Featured Projects</h2>
+        <div class="grid sm:grid-cols-2 gap-4">
+          <div class="bg-slate-50 rounded-lg p-4 border border-slate-200">
+            <h4 class="font-semibold text-slate-900 text-sm mb-1 flex items-center gap-2">
+              <span class="w-2 h-2 bg-rose-500 rounded-full"></span>
+              Government Infrastructure Hardening
+            </h4>
+            <p class="text-xs text-slate-600 leading-relaxed">
+              Configured GCP servers with restrictive IAM policies, encrypted buckets, and access monitoring 
+              for critical São Paulo state government system. Result: <strong>zero data leak incidents</strong> in 18 months of operation.
+            </p>
+          </div>
+          <div class="bg-slate-50 rounded-lg p-4 border border-slate-200">
+            <h4 class="font-semibold text-slate-900 text-sm mb-1 flex items-center gap-2">
+              <span class="w-2 h-2 bg-emerald-500 rounded-full"></span>
+              Daily Deploy CI/CD Pipeline
+            </h4>
+            <p class="text-xs text-slate-600 leading-relaxed">
+              Implemented complete automation with GitHub Actions and Docker in enterprise environment. 
+              Reduced deploy time from <strong>weeks to minutes</strong> with automatic rollback and security gates.
+            </p>
+          </div>
+          <div class="bg-slate-50 rounded-lg p-4 border border-slate-200">
+            <h4 class="font-semibold text-slate-900 text-sm mb-1 flex items-center gap-2">
+              <span class="w-2 h-2 bg-sky-500 rounded-full"></span>
+              2 Million Users Cloud Migration
+            </h4>
+            <p class="text-xs text-slate-600 leading-relaxed">
+              Led migration of high-traffic corporate portal to GCP. Architecture with auto-scaling, Redis, and CDN. 
+              Reduced response time by <strong>67%</strong> (850ms → 280ms) and costs by 18%.
+            </p>
+          </div>
+          <div class="bg-slate-50 rounded-lg p-4 border border-slate-200">
+            <h4 class="font-semibold text-slate-900 text-sm mb-1 flex items-center gap-2">
+              <span class="w-2 h-2 bg-amber-500 rounded-full"></span>
+              GDPR Compliance in Legacy System
+            </h4>
+            <p class="text-xs text-slate-600 leading-relaxed">
+              Mapped personal data flows in 10-year-old PHP/Oracle application, implemented anonymization, 
+              granular consent, and audit logs. <strong>Passed external audit without reservations.</strong>
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- EDUCATION -->
+      <section class="bg-white rounded-lg shadow-sm p-6 md:p-8 border border-slate-200 print-card page-break">
+        <h2 class="text-lg font-bold text-security mb-5 pb-2 border-b-2 border-emerald-500/30 uppercase tracking-wide">Education</h2>
+        <div class="space-y-4">
+          <div class="flex flex-wrap justify-between items-baseline gap-2">
+            <div>
+              <p class="font-semibold text-slate-900">Bachelor's in Information Systems</p>
+              <p class="text-sm text-slate-500">FMU University Center — FIAM-FAAM</p>
+            </div>
+          </div>
+          <div class="flex flex-wrap justify-between items-baseline gap-2">
+            <div>
+              <p class="font-semibold text-slate-900">Associate Degree in Website Creation & Development</p>
+              <p class="text-sm text-slate-500">Anhembi Morumbi University</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+    </main>
+  </div>
+
+  <footer class="text-center text-xs text-slate-400 py-6 border-t border-slate-200 no-print">
+    <p class="mb-1">Daniel Angelone — Backend, Cloud & Security</p>
+    <p>daniel.angelone@gmail.com</p>
+  </footer>
+
+</body>
+</html>
